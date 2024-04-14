@@ -1,0 +1,2226 @@
+Food_ID,Food_Item,per100rams,Cals_per100rams,KJ_per100rams
+1,Applesauce,100,62,260
+2,Canned Apricots,100,48,202
+3,Canned Blackberries,100,92,386
+4,Canned Blueberries,100,88,370
+5,Canned Cherries,100,54,227
+6,Canned Cranberries,100,178,748
+7,Canned Crushed Pineapple,100,53,223
+8,Canned Fis,100,107,449
+9,Canned Fruit Cocktail,100,81,340
+10,Canned Fruit Salad,100,50,210
+11,Canned ooseberries,100,73,307
+12,Canned rapefruit,100,37,155
+13,Canned rapes,100,76,319
+14,Canned Mandarin Oranes,100,71,298
+15,Canned Mano,100,65,273
+16,Canned Manosteen,100,73,307
+17,Canned Mixed Fruit,100,71,298
+18,Canned Morello Cherries,100,81,340
+19,Canned Oranes,100,62,260
+20,Canned Peaches,100,54,227
+21,Canned Pears,100,35,147
+22,Canned Pineapple,100,60,252
+23,Canned Plums,100,58,244
+24,Canned Raspberries,100,91,382
+25,Canned Sliced Pineapple,100,53,223
+26,Canned Sour Cherries,100,114,479
+27,Canned Strawberries,100,92,386
+28,Canned Tanerines,100,61,256
+29,Dried Fruit,100,243,1021
+30,Acai,100,70,294
+31,Apple,100,52,218
+32,Applesauce,100,68,286
+33,Apricot,100,48,202
+34,Avocado,100,160,672
+35,Banana,100,89,374
+36,Blackberries,100,43,181
+37,Blood Oranes,100,50,210
+38,Blueberries,100,57,239
+39,Cantaloupe,100,34,143
+40,Cherries,100,50,210
+41,Clementine,100,47,197
+42,Cranberries,100,46,193
+43,Currants,100,56,235
+44,Custard Apple,100,101,424
+45,Dates,100,282,1184
+46,Fis,100,74,311
+47,Fruit salad,100,50,210
+48,rapes,100,69,290
+49,reenae,100,41,172
+50,uava,100,68,286
+51,Jackfruit,100,95,399
+52,Jujube,100,79,332
+53,Kiwi,100,61,256
+54,Lemon,100,29,122
+55,Lime,100,30,126
+56,Lychees,100,66,277
+57,Mandarin Oranes,100,53,223
+58,Mano,100,60,252
+59,Minneola,100,64,269
+60,Mulberries,100,43,181
+61,Nectarine,100,44,185
+62,Olives,100,115,483
+63,Orane,100,47,197
+64,Papaya,100,43,181
+65,Passion Fruit,100,97,407
+66,Peach,100,39,164
+67,Pear,100,57,239
+68,Persimmon,100,127,533
+69,Physalis,100,49,206
+70,Pineapple,100,50,210
+71,Plantains,100,122,512
+72,Plum,100,46,193
+73,Pomeranate,100,83,349
+74,Quince,100,57,239
+75,Raisins,100,299,1256
+76,Rambutan,100,82,344
+77,Raspberries,100,52,218
+78,Rhubarb,100,21,88
+79,Starfruit,100,31,130
+80,Strawberries,100,32,134
+81,Tamarind,100,239,1004
+82,Tanerine,100,53,223
+83,Watermelon,100,30,126
+84,Acerola,100,32,134
+85,Asian Pear,100,42,176
+86,Avocado,100,160,672
+87,Banana,100,89,374
+88,Breadfruit,100,103,433
+89,Cantaloupe Melon,100,34,143
+90,Casaba Melon,100,28,118
+91,Cherimoya,100,75,315
+92,Draon Fruit,100,60,252
+93,Durian,100,147,617
+94,Feijoa,100,55,231
+95,alia Melon,100,23,97
+96,rapefruit,100,42,176
+97,uava,100,68,286
+98,Honeydew,100,36,151
+99,Jackfruit,100,95,399
+100,Kiwi,100,61,256
+101,Kumquat,100,71,298
+102,Lychee,100,66,277
+103,Mandarin Oranes,100,53,223
+104,Mano,100,60,252
+105,Manosteen,100,73,307
+106,Maracuya,100,97,407
+107,Maraschino Cherries,100,165,693
+108,Muskmelon,100,34,143
+109,Noni,100,53,223
+110,Passion Fruit,100,97,407
+111,Pineapple,100,50,210
+112,Pink rapefruit,100,42,176
+113,Plantain,100,122,512
+114,Pomeranate,100,83,349
+115,Pomelo,100,38,160
+116,Prickly Pear,100,41,172
+117,Rambutan,100,82,344
+118,Sapodilla,100,83,349
+119,Soursop Fruit,100,66,277
+120,Star Fruit,100,31,130
+121,Tamarind,100,239,1004
+122,Watermelon,100,30,126
+123,All-blue Potatoes,100,61,256
+124,Baked Potato,100,93,391
+125,Boiled Potatoes,100,87,365
+126,Cassava,100,160,672
+127,Croquettes,100,127,533
+128,Dumplin Douh,100,124,521
+129,Dumplins,100,124,521
+130,French Finerlin Potatoes,100,82,344
+131,French Fries,100,312,1310
+132,Fried Potatoes,100,312,1310
+133,nocchi,100,133,559
+134,Japanese Sweet Potatoes,100,87,365
+135,Marrow Dumplins,100,424,1781
+136,Mashed Potatoes,100,89,374
+137,Norland Red Potatoes,100,89,374
+138,Omelette,100,154,647
+139,Potato,100,77,323
+140,Potato Dumplin,100,124,521
+141,Potato Fritter,100,185,777
+142,Potato ratin,100,132,554
+143,Potato Pancakes,100,268,1126
+144,Potato Salad,100,143,601
+145,Potato Starch,100,331,1390
+146,Potato Sticks,100,522,2192
+147,Potato Waffles,100,167,701
+148,Potato Wedes,100,123,517
+149,Potatoes au ratin,100,132,554
+150,Purple Majesty Potatoes,100,72,302
+151,Red old Potatoes,100,89,374
+152,Red Potatoes,100,89,374
+153,Roast Potatoes,100,149,626
+154,Rosemary Potatoes,100,93,391
+155,Rösti,100,138,580
+156,Russet Potatoes,100,97,407
+157,Russian Banana Potatoes,100,67,281
+158,Sweet Potato,100,92,386
+159,White Potatoes,100,94,395
+160,Yams,100,116,487
+161,Yukon old Potatoes,100,82,344
+162,Artichoke,100,47,197
+163,Aruula,100,25,105
+164,Asparaus,100,20,84
+165,Auberine,100,25,105
+166,Beetroot,100,43,181
+167,Bell Pepper,100,20,84
+168,Black Olives,100,115,483
+169,Broccoli,100,34,143
+170,Brussels Sprouts,100,43,181
+171,Cabbae,100,25,105
+172,Capsicum,100,27,113
+173,Carrot,100,41,172
+174,Cauliflower,100,25,105
+175,Celery,100,16,67
+176,Chard,100,19,80
+177,Cherry Tomato,100,100,420
+178,Chicory,100,72,302
+179,Chinese Cabbae,100,16,67
+180,Chives,100,30,126
+181,Collard reens,100,32,134
+182,Corn,100,365,1533
+183,Courette,100,17,71
+184,Creamed Spinach,100,74,311
+185,Cucumber,100,16,67
+186,Eplant,100,25,105
+187,Endive,100,17,71
+188,Fennel,100,31,130
+189,arlic,100,149,626
+190,herkin,100,14,59
+191,ourd,100,14,59
+192,reen Beans,100,31,130
+193,reen Olives,100,115,483
+194,reen Onion,100,32,134
+195,Horseradish,100,48,202
+196,Kale,100,49,206
+197,Kohlrabi,100,27,113
+198,Kumara,100,86,361
+199,Leek,100,61,256
+200,Lettuce,100,15,63
+201,Mushrooms,100,22,92
+202,Mustard reens,100,27,113
+203,Nori,100,35,147
+204,Okra,100,33,139
+205,Olives,100,115,483
+206,Onion,100,40,168
+207,Parsnips,100,75,315
+208,Peas,100,81,340
+209,Pepper,100,27,113
+210,Potato,100,77,323
+211,Pumpkin,100,26,109
+212,Radishes,100,16,67
+213,Red Cabbae,100,31,130
+214,Rutabaa,100,38,160
+215,Shallots,100,72,302
+216,Spinach,100,23,97
+217,Squash,100,45,189
+218,Sweet Potato,100,86,361
+219,Tomato,100,18,76
+220,Turnip reens,100,20,84
+221,Turnips,100,28,118
+222,Wasabi,100,109,458
+223,Winter Squash,100,34,143
+224,Zucchini,100,17,71
+225,Arby’s rand Turkey Club,100,210,882
+226,Arby’s Reuben,100,208,874
+227,Arby’s Roast Beef Classic,100,234,983
+228,Arby’s Roast Beef Max,100,234,983
+229,BBQ Rib,100,212,890
+230,Bean Burrito,100,200,840
+231,Bi N’ Tasty,100,223,937
+232,Bratwurst,100,333,1399
+233,Burer Kin Anry Whopper,100,255,1071
+234,Burer Kin Double Whopper,100,239,1004
+235,Burer Kin Double Whopper with Cheese,100,249,1046
+236,Burer Kin Oriinal Chicken Sandwich,100,301,1264
+237,Burer Kin Premium Alaskan Fish Sandwich,100,259,1088
+238,Burer Kin Triple Whopper,100,269,1130
+239,Burer Kin Whopper,100,231,970
+240,Burer Kin Whopper Jr.,100,234,983
+241,Burer Kin Whopper with Cheese,100,241,1012
+242,Cheeseburer,100,263,1105
+243,Chicken Breast,100,163,685
+244,Chicken Fajita,100,147,617
+245,Chicken McNuets,100,302,1268
+246,Chicken Nuets,100,296,1243
+247,Chicken Pizziola,100,141,592
+248,Chicken Sandwich,100,241,1012
+249,Chicken Teriyaki Sandwich,100,138,580
+250,Chicken Wins,100,324,1361
+251,Chop Suey,100,172,722
+252,Curly Fries,100,311,1306
+253,Double Cheeseburer,100,267,1121
+254,E Roll,100,250,1050
+255,Falafel,100,335,1407
+256,Filet-o-Fish,100,282,1184
+257,Fish and Chips,100,195,819
+258,Fish Sandwich,100,273,1147
+259,French Fries,100,312,1310
+260,rilled Chicken Salad,100,88,370
+261,Ham Sandwich,100,241,1012
+262,Hamburer,100,254,1067
+263,Hot Do,100,269,1130
+264,Italian BMT,100,183,769
+265,Lasana,100,132,554
+266,McDonald’s Bi Mac,100,256,1075
+267,McDonald’s Cheeseburer,100,263,1105
+268,McDonald’s Chicken Nuets,100,297,1247
+269,McDonald’s Double Cheeseburer,100,282,1184
+270,McDonald’s Filet-o-Fish,100,275,1155
+271,McDonald’s McChicken,100,251,1054
+272,McDonald’s McDouble,100,252,1058
+273,McDonald’s McMuffi E,100,225,945
+274,McDonald’s McRib,100,265,1113
+275,McDonald’s Mihty Wins,100,308,1294
+276,McRib,100,265,1113
+277,Meatball Sandwich,100,161,676
+278,Nachos with Cheese,100,306,1285
+279,Onion Rins,100,411,1726
+280,Smoked Salmon,100,158,664
+281,Spicy Italian,100,219,920
+282,Subway Club Sandwich,100,131,550
+283,Tortilla Wrap,100,271,1138
+284,Tuna,100,86,361
+285,Turkey,100,104,437
+286,Veie Burer,100,181,760
+287,Veie Deliht,100,138,580
+288,Veie Patty,100,390,1638
+289,Wendy’s Baconator,100,304,1277
+290,Wendy’s Jr. Bacon Cheeseburer,100,261,1096
+291,Wendy’s Jr. Cheeseburer,100,225,945
+292,Wendy’s Son of Baconator,100,321,1348
+293,Whopper,100,231,970
+294,Ziner,100,256,1075
+295,Ziner Burer,100,256,1075
+296,Poutine,100,227,953
+297,BBQ Chicken Pizza,100,234,983
+298,BBQ Pizza,100,224,941
+299,Beef Pizza,100,304,1277
+300,Bianca Pizza,100,246,1033
+301,Buffalo Chicken Pizza,100,252,1058
+302,Calabrese Pizza,100,235,987
+303,Calzone,100,231,970
+304,Capricciosa Pizza,100,260,1092
+305,Cheese Pizza,100,267,1121
+306,Chicken Pizza,100,234,983
+307,Deep Dish Pizza,100,265,1113
+308,Dominos Philly Cheese Steak Pizza,100,224,941
+309,Four Cheese Pizza,100,221,928
+310,oat Cheese Pizza,100,219,920
+311,rilled Pizza,100,226,949
+312,Hawaiian Pizza,100,115,483
+313,Marherita Pizza,100,275,1155
+314,Mozzarella Pizza,100,249,1046
+315,Mushroom Pizza,100,212,890
+316,Napoli Pizza,100,202,848
+317,New York Style Pizza,100,169,710
+318,Pepperoni Pizza,100,255,1071
+319,Pizza Douh,100,228,958
+320,Pizza Hut Stuffed Crust Pizza,100,255,1071
+321,Pizza Hut Supreme Pizza,100,248,1042
+322,Pizza Rolls,100,247,1037
+323,Quattro Formai Pizza,100,248,1042
+324,Red Pepper Pizza,100,192,806
+325,Salami Pizza,100,255,1071
+326,Sausae Pizza,100,246,1033
+327,Seafood Pizza,100,245,1029
+328,Shrimp Pizza,100,209,878
+329,Sicilian Pizza,100,241,1012
+330,Spinach Feta Pizza,100,242,1016
+331,Spinach Pizza,100,234,983
+332,Stuffed Crust Pizza,100,255,1071
+333,Tarte Flambée,100,253,1063
+334,Thin Crust Pizza,100,261,1096
+335,Tuna Pizza,100,254,1067
+336,Veetable Pizza,100,256,1075
+337,Veetarian Pizza,100,256,1075
+338,Veie Pizza,100,231,970
+339,White Pizza,100,246,1033
+340,American Cheese,100,148,622
+341,Applewood,100,410,1722
+342,Asiao Cheese,100,392,1646
+343,Babybel,100,333,1399
+344,Blue Cheese,100,353,1483
+345,Brie,100,334,1403
+346,Camembert,100,300,1260
+347,Cheddar,100,403,1693
+348,Cheese Fondue,100,228,958
+349,Cheese Spread,100,290,1218
+350,Cheese Whiz,100,276,1159
+351,Chester,100,387,1625
+352,Colby Cheese,100,394,1655
+353,Colby-Jack Cheese,100,394,1655
+354,Cottae Cheese,100,98,412
+355,Dutch Cheese,100,393,1651
+356,Edam Cheese,100,357,1499
+357,Emmentaler,100,357,1499
+358,Feta,100,264,1109
+359,Fontina,100,389,1634
+360,Fresh Mozzarella,100,280,1176
+361,jetost,100,466,1957
+362,oat Cheese,100,364,1529
+363,oronzola,100,350,1470
+364,ouda,100,356,1495
+365,rated Parmesan,100,431,1810
+366,rilled Cheese,100,350,1470
+367,ruyere,100,413,1735
+368,Halloumi,100,321,1348
+369,Havarti,100,371,1558
+370,Italian Cheese,100,397,1667
+371,Jarlsber,100,352,1478
+372,Maasdam Cheese,100,344,1445
+373,Mancheo Cheese,100,320,1344
+374,Monterey,100,373,1567
+375,Monterey Jack Cheese,100,373,1567
+376,Mozzarella,100,280,1176
+377,Muenster Cheese,100,368,1546
+378,Neufchatel,100,253,1063
+379,Parmesan,100,431,1810
+380,Pecorino,100,387,1625
+381,Provolone,100,351,1474
+382,Raclette Cheese,100,357,1499
+383,Ricotta,100,174,731
+384,Romano,100,387,1625
+385,Roquefort,100,369,1550
+386,Sheep Cheese,100,364,1529
+387,Soft Cheese,100,268,1126
+388,Stilton Cheese,100,393,1651
+389,Strin Cheese,100,250,1050
+390,Swiss Cheese,100,380,1596
+391,White Cheddar,100,403,1693
+392,Wisconsin Cheese,100,389,1634
+393,Chive Cream Cheese,100,342,1436
+394,Cottae Cheese,100,98,412
+395,Cream Cheese,100,342,1436
+396,Cream Cheese with Herbs,100,342,1436
+397,Feta Cream Cheese,100,342,1436
+398,arlic Cream Cheese,100,342,1436
+399,oat Cheese,100,364,1529
+400,Horseradish,100,48,202
+401,Mascarpone,100,450,1890
+402,Obatzda,100,303,1273
+403,Olive Cream Cheese,100,342,1436
+404,Pesto Cream Cheese,100,342,1436
+405,Philadelphia Cream Cheese,100,342,1436
+406,Pineapple Cream Cheese,100,342,1436
+407,Salmon Cream Cheese,100,342,1436
+408,Veetable Cream Cheese,100,342,1436
+409,Walnut Cream Cheese,100,342,1436
+410,Almond Milk,100ml,17,71
+411,Buttermilk,100ml,62,260
+412,Chocolate Mousse,100,225,945
+413,Coconut Milk,100ml,230,966
+414,Coffee Creamer,100,195,819
+415,Condensed Milk,100,321,1348
+416,Cottae Cheese,100,98,412
+417,Cream,100,242,1016
+418,Creme Fraiche,100,393,1651
+419,Curd,100,98,412
+420,Custard,100,122,512
+421,Evaporated Milk,100,135,567
+422,oat Milk,100,69,290
+423,Hot Chocolate,100ml,89,374
+424,Kefir,100ml,55,231
+425,Lactose-free Milk,100ml,52,218
+426,Lassi,100ml,75,315
+427,Milk,100ml,61,256
+428,Plain Yourt,100,61,256
+429,Powdered Milk,100,496,2083
+430,Quark,100,145,609
+431,Rice Milk,100ml,49,206
+432,Rice Puddin,100,118,496
+433,Semi-skimmed Milk,100ml,50,210
+434,Semolina Puddin,100,67,281
+435,Skim Milk,100ml,35,147
+436,Sour Cream,100,181,760
+437,Soy Milk,100ml,45,189
+438,Sweetened Condensed Milk,100ml,321,1348
+439,Tzatziki,100,117,491
+440,Whipped Cream,100,257,1079
+441,Whole Milk,100ml,61,256
+442,Yourt,100,61,256
+443,American Cheese,100,148,622
+444,Applewood,100,410,1722
+445,Berkäse,100,418,1756
+446,Butter Cheese,100,388,1630
+447,Cheddar,100,403,1693
+448,Cheese Platter,100,357,1499
+449,Cheese Slices,100,356,1495
+450,Colby Cheese,100,394,1655
+451,Colby-Jack Cheese,100,394,1655
+452,Cold Pack Cheese,100,246,1033
+453,Edam,100,357,1499
+454,Edam Cheese,100,357,1499
+455,Emmental,100,357,1499
+456,Emmentaler,100,357,1499
+457,Esrom (Cheese),100,322,1352
+458,Fol Epi,100,388,1630
+459,Fresh Mozzarella,100,280,1176
+460,ouda,100,356,1495
+461,ouda Cheese,100,356,1495
+462,Havarti,100,371,1558
+463,Lacy Swiss Cheese,100,321,1348
+464,Leerdammer,100,284,1193
+465,Leerdammer Cheese,100,284,1193
+466,Maasdam Cheese,100,344,1445
+467,Monterey Jack Cheese,100,373,1567
+468,Mozzarella,100,280,1176
+469,Muenster Cheese,100,368,1546
+470,Pepper Cheese,100,100,420
+471,Sandwich Cheese,100,148,622
+472,Smoked Cheese,100,410,1722
+473,Tilsit,100,340,1428
+474,White American,100,148,622
+475,White Cheddar,100,403,1693
+476,Youn ouda,100,356,1495
+477,Activia,100,74,311
+478,Activia Lemon,100,100,420
+479,Activia Strawberry,100,97,407
+480,Aloe Vera Yourt,100,85,357
+481,Ayran,100ml,42,176
+482,Bircher Muesli Yourt,100,109,458
+483,Blueberry Yourt,100,105,441
+484,Cherry Yourt,100,97,407
+485,Chocolate Yourt,100,128,538
+486,Cream Yourt,100,124,521
+487,Creamy Yourt,100,90,378
+488,Diet Yourt,100,54,227
+489,Fruit Yourt,100,97,407
+490,reek Yourt,100,53,223
+491,Low-Fat Yourt,100,63,265
+492,Mocca Yourt,100,100,420
+493,Oranic Yourt,100,75,315
+494,Peach Yourt,100,97,407
+495,Plain Yourt,100,61,256
+496,Probiotic Yourt,100,80,336
+497,Skim Milk Yourt,100,56,235
+498,Stracciatella Yourt,100,139,584
+499,Strawberry Yourt,100,100,420
+500,Vanilla Yourt,100,101,424
+501,Yourt,100,61,256
+502,Yourt Corner,100,119,500
+503,Yoplait Boston Cream Pie,100,90,378
+504,Yoplait French Vanilla,100,100,420
+505,Yoplait reek Blueberry,100,100,420
+506,Yoplait reek Coconut,100,100,420
+507,Yoplait reek Strawberry,100,100,420
+508,Yoplait reek Vanilla,100,100,420
+509,Yoplait Harvest Peach,100,100,420
+510,Yoplait Key Lime Pie,100,100,420
+511,Yoplait Mano,100,100,420
+512,Yoplait Mixed Berry,100,100,420
+513,Yoplait Pina Colada,100,100,420
+514,Yoplait Strawberry,100,100,420
+515,Yoplait Strawberry Banana,100,100,420
+516,Yoplait Strawberry Cheesecake,100,100,420
+517,Beef,100,171,718
+518,Beef Brisket,100,137,575
+519,Beef Fillet,100,189,794
+520,Beef oulash,100,123,517
+521,Beef Minute Steak,100,133,559
+522,Beef Neck,100,213,895
+523,Beef Pancreas,100,271,1138
+524,Beef Patty,100,247,1037
+525,Beef Prime Rib,100,404,1697
+526,Beef Ribs,100,196,823
+527,Beef Sirloin,100,182,764
+528,Beef Suet,100,854,3587
+529,Beef Tallow,100,902,3788
+530,Beef Thymus,100,319,1340
+531,Beef Tripe,100,94,395
+532,Chuck Roast,100,141,592
+533,Chuck Steak,100,137,575
+534,Filet Minon,100,207,869
+535,Flank Steak,100,194,815
+536,round Beef,100,241,1012
+537,round Chuck,100,250,1050
+538,round Round,100,212,890
+539,Minced Veal,100,143,601
+540,Porterhouse Steak,100,247,1037
+541,Rib Eye Steak,100,217,911
+542,Roast Beef,100,187,785
+543,Rump Steak,100,171,718
+544,Skirt Steak,100,205,861
+545,Stew Beef,100,191,802
+546,Strip Steak,100,117,491
+547,T-Bone-Steak,100,221,928
+548,Veal,100,282,1184
+549,Veal Breast,100,282,1184
+550,Veal Le,100,211,886
+551,Veal Roast Beef,100,175,735
+552,Veal Shank,100,177,743
+553,Veal Shoulder,100,183,769
+554,Veal Sirloin,100,204,857
+555,Veal Tenderloin,100,217,911
+556,Baked Ham,100,343,1441
+557,Beef Salami,100,375,1575
+558,Boiled Ham,100,126,529
+559,Bolona,100,247,1037
+560,Bresaola,100,178,748
+561,Capicola,100,110,462
+562,Chicken Breast Fillet,100,79,332
+563,Chopped Ham,100,180,756
+564,Chorizo,100,455,1911
+565,Corned Beef,100,251,1054
+566,Dutch Loaf,100,268,1126
+567,Ham,100,145,609
+568,Ham Sausae,100,164,689
+569,Head Cheese,100,157,659
+570,Hickory Ham,100,188,790
+571,Honey Ham,100,122,512
+572,Liverwurst,100,326,1369
+573,Olive Loaf,100,232,974
+574,Oven-Roasted Turkey Breast,100,104,437
+575,Parma Ham,100,345,1449
+576,Pastrami,100,133,559
+577,Pepperoni,100,494,2075
+578,Pimento Loaf,100,265,1113
+579,Pork Roast,100,247,1037
+580,Prosciutto,100,195,819
+581,Roast Beef,100,267,1121
+582,Salami,100,336,1411
+583,Serrano Ham,100,300,1260
+584,Smoked Ham,100,107,449
+585,Smoked Turkey Breast,100,104,437
+586,Summer Sausae,100,298,1252
+587,Tonue,100,284,1193
+588,Turkey Breast,100,104,437
+589,Turkey Ham,100,126,529
+590,Turkey Salami,100,152,638
+591,Alliator,100,232,974
+592,Beef,100,248,1042
+593,Beef Brisket,100,242,1016
+594,Beef Jerky,100,410,1722
+595,Beef Ribs,100,238,1000
+596,Beef Tenderloin,100,218,916
+597,Chicken,100,219,920
+598,Chicken Breast,100,172,722
+599,Chicken Drumstick,100,185,777
+600,Chicken Fat,100,898,3772
+601,Chicken iblets,100,158,664
+602,Chicken izzards,100,146,613
+603,Chicken Le,100,174,731
+604,Chicken Liver,100,167,701
+605,Chicken Meat,100,172,722
+606,Chicken Thih,100,229,962
+607,Chicken Win,100,266,1117
+608,Chuck Steak,100,277,1163
+609,Cubed Steak,100,199,836
+610,Duck,100,337,1415
+611,Filet Minon,100,267,1121
+612,Flank Steak,100,194,815
+613,Flat Iron Steak,100,137,575
+614,round Beef,100,246,1033
+615,round Round,100,246,1033
+616,Ham,100,163,685
+617,New York Strip Steak,100,199,836
+618,Ostrich,100,145,609
+619,Pork,100,196,823
+620,Pork Baby Back Ribs,100,212,890
+621,Pork Chops,100,196,823
+622,Pork Country-Style Ribs,100,247,1037
+623,Pork Loin,100,204,857
+624,Pork Roast,100,254,1067
+625,Pork Steaks,100,196,823
+626,Roast Beef,100,140,588
+627,Round Steak,100,182,764
+628,Schnitzel,100,156,655
+629,Spare Ribs,100,238,1000
+630,Standin Rib Roast,100,333,1399
+631,T-Bone Steak,100,202,848
+632,Turkey,100,189,794
+633,Turkey Breast,100,135,567
+634,Turkey Les,100,208,874
+635,Turkey Steak,100,189,794
+636,Turkey Wins,100,221,928
+637,Beef Brain,100,196,823
+638,Beef Heart,100,165,693
+639,Beef Kidney,100,158,664
+640,Beef Liver,100,191,802
+641,Beef Lun,100,120,504
+642,Beef Melt,100,271,1138
+643,Beef Tonue,100,284,1193
+644,Calf Brain,100,136,571
+645,Calf Liver,100,192,806
+646,Calf Lun,100,104,437
+647,Calf Melt,100,256,1075
+648,Chicken iblets,100,277,1163
+649,Chicken Heart,100,185,777
+650,Chicken Liver,100,172,722
+651,Chicken Stomach,100,148,622
+652,Chitterlins,100,233,979
+653,Duck Liver,100,136,571
+654,oose Liver,100,133,559
+655,Ho Maws,100,157,659
+656,Pi Brain,100,138,580
+657,Pi Heart,100,148,622
+658,Pi Kidney,100,151,634
+659,Pi Lun,100,99,416
+660,Pork Liver,100,165,693
+661,Pork Melt,100,219,920
+662,Pork Tonue,100,271,1138
+663,Turkey iblets,100,173,727
+664,Turkey Heart,100,174,731
+665,Turkey Liver,100,189,794
+666,Turkey Stomach,100,148,622
+667,Veal Heart,100,186,781
+668,Veal Kidney,100,163,685
+669,Veal Tonue,100,202,848
+670,Bacon,100,407,1709
+671,Brawn,100,309,1298
+672,Canadian-Style Bacon,100,107,449
+673,Chitterlins,100,233,979
+674,round Pork,100,263,1105
+675,Ho Maws,100,250,1050
+676,Lard,100,898,3772
+677,Meatloaf,100,89,374
+678,Parma Ham,100,261,1096
+679,Pi Ear,100,166,697
+680,Pi Fat,100,638,2680
+681,Pi’s Tail,100,396,1663
+682,Pi’s Trotter,100,243,1021
+683,Pork Bacon,100,407,1709
+684,Pork Belly,100,518,2176
+685,Pork Blade Steak,100,232,974
+686,Pork Chop,100,123,517
+687,Pork Country-Style Ribs,100,133,559
+688,Pork Crown Roast,100,212,890
+689,Pork Cutlet,100,131,550
+690,Pork Cutlets,100,131,550
+691,Pork Le,100,201,844
+692,Pork Loin,100,143,601
+693,Pork Meatloaf,100,243,1021
+694,Pork Raout,100,73,307
+695,Pork Rib Roast,100,159,668
+696,Pork Ribs,100,292,1226
+697,Pork Roast,100,194,815
+698,Pork Sausae,100,339,1424
+699,Pork Shank,100,172,722
+700,Pork Shoulder,100,269,1130
+701,Pork Shoulder Blade,100,232,974
+702,Pork Stomach,100,250,1050
+703,Rack of Pork,100,241,1012
+704,Salt Meat,100,286,1201
+705,Salt Pork,100,286,1201
+706,Serrano Ham,100,339,1424
+707,Spare Ribs,100,396,1663
+708,Spareribs,100,238,1000
+709,Capon,100,229,962
+710,Chicken,100,219,920
+711,Chicken Breast,100,172,722
+712,Chicken Drumsticks,100,185,777
+713,Chicken izzards,100,154,647
+714,Chicken Les,100,174,731
+715,Chicken Thihs,100,229,962
+716,Chicken Wins,100,266,1117
+717,Cornish Hens,100,259,1088
+718,Dove,100,213,895
+719,Duck,100,337,1415
+720,Duck Breast,100,201,844
+721,Emu,100,152,638
+722,oose,100,305,1281
+723,uinea-Fowl,100,158,664
+724,Ostrich,100,145,609
+725,Ostrich Meat,100,145,609
+726,Pheasant,100,239,1004
+727,Pheasant Breast,100,133,559
+728,Pheasant Le,100,239,1004
+729,Pieon,100,142,596
+730,Poularde,100,200,840
+731,Quail,100,227,953
+732,Quail Breast,100,123,517
+733,Rhea,100,160,672
+734,Turkey,100,189,794
+735,Turkey Breast,100,135,567
+736,Turkey Cutlet,100,189,794
+737,Turkey Drumsticks,100,208,874
+738,Turkey Les,100,208,874
+739,Turkey Steak,100,189,794
+740,Turkey Wins,100,221,928
+741,Wild Duck,100,211,886
+742,Andouille,100,232,974
+743,Bacon,100,407,1709
+744,Black Puddin,100,379,1592
+745,Blood Sausae,100,379,1592
+746,Bockwurst,100,301,1264
+747,Boiled Ham,100,104,437
+748,Bolona,100,247,1037
+749,Boudin,100,194,815
+750,Bratwurst,100,297,1247
+751,Brawn,100,157,659
+752,Breakfast Sausae Links,100,339,1424
+753,Cheese Pastry,100,374,1571
+754,Chicken Breast,100,79,332
+755,Chicken Meat,100,79,332
+756,Chicken Salad,100,81,340
+757,Chorizo,100,455,1911
+758,Cooked Ham,100,133,559
+759,Corned Beef,100,153,643
+760,Cumberland Sausae,100,250,1050
+761,Frankfurters,100,305,1281
+762,arlic Sausae,100,169,710
+763,Hot Dos,100,278,1168
+764,Hot Sausae,100,259,1088
+765,Italian Sausae,100,149,626
+766,Jerky,100,410,1722
+767,Kielbasa,100,309,1298
+768,Knackwurst,100,307,1289
+769,Landjaeer,100,352,1478
+770,Linuica,100,282,1184
+771,Liver Pate,100,319,1340
+772,Liverwurst,100,326,1369
+773,Luncheon Meat,100,117,491
+774,Mettwurst,100,310,1302
+775,Mortadella,100,311,1306
+776,Pastrami,100,133,559
+777,Pepperoni,100,494,2075
+778,Polish Sausae,100,301,1264
+779,Pork,100,247,1037
+780,Pork Roll,100,302,1268
+781,Prosciutto,100,195,819
+782,Rin Bolona,100,286,1201
+783,Salami,100,336,1411
+784,Sausae,100,230,966
+785,Smoked Sausae,100,301,1264
+786,Souse,100,157,659
+787,Spam,100,315,1323
+788,Weisswurst,100,313,1315
+789,Alliator,100,104,437
+790,Alliator Meat,100,232,974
+791,Antelope Meat,100,150,630
+792,Bear Meat,100,259,1088
+793,Beaver Meat,100,212,890
+794,Bison,100,171,718
+795,Bison Meat,100,171,718
+796,Bison Sirloin,100,171,718
+797,Buffalo,100,131,550
+798,Buffalo Meat,100,131,550
+799,Caribou,100,159,668
+800,oose,100,238,1000
+801,oose Meat,100,238,1000
+802,Lamb,100,202,848
+803,Lamb Meat,100,202,848
+804,Mallard Duck Meat,100,211,886
+805,Mallard Meat,100,211,886
+806,Moose,100,134,563
+807,Moose Meat,100,134,563
+808,Mutton,100,234,983
+809,Mutton Meat,100,234,983
+810,Ostrich,100,175,735
+811,Ostrich Meat,100,175,735
+812,Pheasant,100,239,1004
+813,Pheasant Meat,100,239,1004
+814,Rabbit,100,197,827
+815,Racoon,100,255,1071
+816,Racoon Meat,100,255,1071
+817,Reindeer,100,200,840
+818,Reindeer Meat,100,200,840
+819,Squirrel,100,173,727
+820,Squirrel Meat,100,173,727
+821,Venison,100,164,689
+822,Venison Sirloin,100,158,664
+823,Wild Boar,100,160,672
+824,Wild Boar Meat,100,160,672
+825,Anel Food Cake,100,258,1084
+826,Apple Cake,100,252,1058
+827,Apple Cobbler,100,198,832
+828,Apple Crisp,100,156,655
+829,Apple Crumble,100,156,655
+830,Apple Pie,100,237,995
+831,Apple Strudel,100,274,1151
+832,Apple Turnover,100,348,1462
+833,Applesauce Cake,100,358,1504
+834,Baked Alaska,100,247,1037
+835,Bakewell Tart,100,430,1806
+836,Banoffee Pie,100,395,1659
+837,Birthday Cake,100,465,1953
+838,Black and White Cookie,100,381,1600
+839,Black Forest Cake,100,264,1109
+840,Blueberry Cobbler,100,234,983
+841,Blueberry Muffin,100,377,1583
+842,Blueberry Pie,100,232,974
+843,Bundt Cake,100,370,1554
+844,Buttermilk Pie,100,380,1596
+845,Caramel Cake,100,475,1995
+846,Carrot Cake,100,408,1714
+847,Cheesecake,100,321,1348
+848,Cherry Pie,100,260,1092
+849,Chess Pie,100,411,1726
+850,Chocolate Cake,100,389,1634
+851,Chocolate Cream Pie,100,304,1277
+852,Chocolate Mousse Cake,100,260,1092
+853,Chocolate Mousse Pie,100,260,1092
+854,Chocolate Muffin,100,420,1764
+855,Coconut Cake,100,356,1495
+856,Coffee Cake,100,331,1390
+857,Cream Puff,100,334,1403
+858,Crumb Cake,100,441,1852
+859,Cupcake,100,305,1281
+860,Danish Pastry,100,374,1571
+861,Donut,100,403,1693
+862,Douhnut,100,403,1693
+863,Flan,100,145,609
+864,Flourless Chocolate Cake,100,509,2138
+865,French Cruller,100,412,1730
+866,Fruit Cake,100,324,1361
+867,Funnel Cake,100,307,1289
+868,erman Chocolate Cake,100,370,1554
+869,inerbread,100,356,1495
+870,Ice Cream Cake,100,200,840
+871,Key Lime Pie,100,359,1508
+872,Kin Cake,100,377,1583
+873,Layer Cake,100,402,1688
+874,Lemon Cake,100,352,1478
+875,Lemon Merinue Pie,100,268,1126
+876,Madeira Cake,100,394,1655
+877,Marble Cake,100,339,1424
+878,Merinue,100,285,1197
+879,Opera Cake,100,320,1344
+880,Paczki,100,336,1411
+881,Pancake,100,227,953
+882,Panettone,100,360,1512
+883,Pavlova,100,294,1235
+884,Peach Cobbler,100,65,273
+885,Peach Pie,100,223,937
+886,Pecan Pie,100,407,1709
+887,Pineapple Upside-Down Cake,100,319,1340
+888,Plum Cake,100,109,458
+889,Poppy-Seed Cake,100,394,1655
+890,Pound Cake,100,390,1638
+891,Profiterole,100,334,1403
+892,Puff Pastry,100,558,2344
+893,Pumpkin Bread,100,298,1252
+894,Pumpkin Cheesecake,100,340,1428
+895,Pumpkin Pie,100,243,1021
+896,Raspberry Pie,100,240,1008
+897,Red Velvet Cake,100,367,1541
+898,Rhubarb Pie,100,245,1029
+899,Rum Cake,100,351,1474
+900,Sacher Torte,100,352,1478
+901,Spone Cake,100,289,1214
+902,Strawberry Cheesecake,100,327,1373
+903,Strawberry Pie,100,230,966
+904,Strawberry Rhubarb Pie,100,281,1180
+905,Sweet Potato Pie,100,260,1092
+906,Swiss Roll,100,439,1844
+907,Tarte Tatin,100,210,882
+908,Tiramisu,100,283,1189
+909,Tiramisu Cake,100,291,1222
+910,Treacle Tart,100,369,1550
+911,Tres Leches Cake,100,246,1033
+912,Trifle,100,180,756
+913,Victoria Spone Cake,100,257,1079
+914,Waffles,100,312,1310
+915,Weddin Cake,100,381,1600
+916,3 Musketeers,100,400,1680
+917,After Eiht,100,452,1898
+918,Airheads,100,375,1575
+919,Almond Roca,100,571,2398
+920,Anel Deliht,100,451,1894
+921,Animal Crackers,100,446,1873
+922,Baby Ruth,100,469,1970
+923,Butterfiner,100,450,1890
+924,Buttermilk Pancakes,100,238,1000
+925,Candy Apple,100,152,638
+926,Candy Cane,100,423,1777
+927,Candy canes,100,423,1777
+928,Candy Corn,100,360,1512
+929,Candy Floss,100,400,1680
+930,Caramel Popcorn,100,376,1579
+931,Caramel squares,100,367,1541
+932,Celebrations,100,490,2058
+933,Cheez-It’s,100,533,2239
+934,Chocolate,100,529,2222
+935,Chocolate Bar,100,533,2239
+936,Chocolate Chips,100,493,2071
+937,Cookies,100,488,2050
+938,Cotton Candy,100,643,2701
+939,Ey Bread,100,196,823
+940,Fairy Cakes,100,440,1848
+941,Ferrero Rocher,100,576,2419
+942,Flapjack,100,486,2041
+943,Fortune Cookies,100,214,899
+944,ranola Bars,100,452,1898
+945,umdrops,100,321,1348
+946,ummi Bears,100,316,1327
+947,Hanuta,100,541,2272
+948,Hershey Kisses,100,471,1978
+949,Jelly Beans,100,354,1487
+950,Jelly Belly,100,354,1487
+951,Jolly Ranchers,100,385,1617
+952,Jordan Almonds,100,429,1802
+953,Kit Kat,100,521,2188
+954,Laffy Taffy,100,372,1562
+955,Licorice,100,375,1575
+956,LifeSavers,100,500,2100
+957,Lindt Chocolate,100,548,2302
+958,Liquorice,100,375,1575
+959,Lollipop,100,392,1646
+960,M&M’s,100,479,2012
+961,Maltesers,100,498,2092
+962,Mars Bar,100,448,1882
+963,Marshmallows,100,318,1336
+964,Marzipan,100,411,1726
+965,Mike and Ike,100,360,1512
+966,Milk Duds,100,422,1772
+967,Milky Way,100,449,1886
+968,PayDay,100,462,1940
+969,Peanut Bar,100,533,2239
+970,Peanut Brittle,100,183,769
+971,Peanut Butter Bars,100,379,1592
+972,Peanut Butter Cookies,100,475,1995
+973,Peppermint bark,100,500,2100
+974,Pez,100,427,1793
+975,Pop Rocks,100,358,1504
+976,Popcorn,100,582,2444
+977,Pumpkin Seeds,100,560,2352
+978,Reeses Peanut Butter Cups,100,536,2251
+979,Rice Puddin,100,134,563
+980,Roasted Almonds,100,452,1898
+981,Rolo,100,474,1991
+982,S’mores,100,500,2100
+983,Semolina,100,340,1428
+984,Skittles,100,405,1701
+985,Smarties,100,357,1499
+986,Smores,100,500,2100
+987,Snickers,100,484,2033
+988,Sour Patch Kids,100,363,1525
+989,Speculoos,100,469,1970
+990,Spritz Cookies,100,500,2100
+991,Take 5,100,476,1999
+992,Toblerone,100,525,2205
+993,Trifle,100,186,781
+994,Twix,100,495,2079
+995,Waffles,100,272,1142
+996,Whoopie Pie,100,400,1680
+997,Baskin-Robbins,100,239,1004
+998,Ben and Jerry’s,100,228,958
+999,Butter Pecan Ice Cream,100,248,1042
+1000,Carvel,100,212,890
+1001,Chocolate Chip Ice Cream,100,215,903
+1002,Chocolate Ice Cream,100,216,907
+1003,Ciao Bella,100,109,458
+1004,Coffee Ice Cream,100,236,991
+1005,Cold Stone Creamery,100,232,974
+1006,Cookie Douh Ice Cream,100,200,840
+1007,Crunchie McFlurry,100,174,731
+1008,Dairy Milk McFlurry,100,186,781
+1009,Dippin Dots,100,224,941
+1010,Double Rainbow,100,257,1079
+1011,Drumsticks,100,255,1071
+1012,French Vanilla Ice Cream,100,201,844
+1013,Friendly’s,100,212,890
+1014,Healthy Choice,100,125,525
+1015,Hot Fude Sundae,100,186,781
+1016,Ice Cream Sandwich,100,237,995
+1017,Ice Cream Sundae,100,142,596
+1018,Ice Milk,100,159,668
+1019,Manolia,100,230,966
+1020,Manum,100,300,1260
+1021,Manum Almond,100,315,1323
+1022,Manum Double Caramel,100,355,1491
+1023,Manum Double Chocolate,100,380,1596
+1024,Manum old,100,341,1432
+1025,Manum White,100,297,1247
+1026,McFlurry,100,153,643
+1027,McFlurry Oreo,100,186,781
+1028,Mini Milk,100,120,504
+1029,Mint Chocolate Chip Ice Cream,100,239,1004
+1030,Rocky Road Ice Cream,100,257,1079
+1031,Schwan’s,100,246,1033
+1032,Smarties McFlurry,100,198,832
+1033,Snickers Ice Cream,100,360,1512
+1034,Soft Serve,100,222,932
+1035,Solero,100,100,420
+1036,Strawberry Ice Cream,100,236,991
+1037,Strawberry Sundae,100,158,664
+1038,Sundae,100,215,903
+1039,Turkey Hill,100,271,1138
+1040,Vanilla Cone,100,162,680
+1041,Vanilla Ice Cream,100,201,844
+1042,Acai Juice,100ml,58,244
+1043,Aloe Vera,100ml,44,185
+1044,Apple Juice,100ml,46,193
+1045,Apricot Nectar,100ml,56,235
+1046,Banana Juice,100ml,50,210
+1047,Blackberry Juice,100ml,48,202
+1048,Boysenberry Juice,100ml,54,227
+1049,Capri-Sun,100ml,41,172
+1050,Carrot Juice,100ml,40,168
+1051,Chamomile Tea,100ml,0,0
+1052,Cherry Juice,100ml,45,189
+1053,Clamato,100ml,60,252
+1054,Coconut Milk,100ml,233,979
+1055,Coconut Water,100ml,19,80
+1056,Concord rape,100ml,71,298
+1057,Cranberry Apple Juice,100ml,67,281
+1058,Cranberry rape Juice,100ml,71,298
+1059,Cranberry Juice,100ml,46,193
+1060,Cucumber Juice,100ml,10,42
+1061,Currant Juice,100ml,48,202
+1062,Enery-Drink,100ml,87,365
+1063,Fruitopia,100ml,110,462
+1064,rape Juice,100ml,60,252
+1065,rapefruit Juice,100ml,46,193
+1066,Lemon Juice,100ml,21,88
+1067,Lemonade,100ml,50,210
+1068,Lime Juice,100ml,21,88
+1069,Limeade,100ml,128,538
+1070,Mano Lassi,100ml,66,277
+1071,Nestea,100ml,21,88
+1072,Orane Juice,100ml,46,193
+1073,Papaya Juice,100ml,58,244
+1074,Passion Fruit Juice,100ml,48,202
+1075,Peach Juice,100ml,54,227
+1076,Peach Nectar,100ml,54,227
+1077,Pear Juice,100ml,60,252
+1078,Pear Nectar,100ml,60,252
+1079,Pineapple Juice,100ml,53,223
+1080,Pineapple Orane Juice,100ml,50,210
+1081,Plum Juice,100ml,71,298
+1082,Pomeranate Juice,100ml,66,277
+1083,Sauerkraut Juice,100ml,14,59
+1084,Tanerine Juice,100ml,43,181
+1085,Tomato Juice,100ml,17,71
+1086,Veetable Juice,100ml,21,88
+1087,White rape Juice,100ml,75,315
+1088,Absinthe,100ml,348,1462
+1089,Advocaat,100ml,283,1189
+1090,Amaretto,100ml,310,1302
+1091,Applejack,100ml,233,979
+1092,Asti,100ml,138,580
+1093,Bailey’s Irish Cream,100ml,327,1373
+1094,Baileys,100ml,327,1373
+1095,Beer,100ml,43,181
+1096,Blue Curacao,100ml,243,1021
+1097,Bourbon,100ml,233,979
+1098,Brandy,100ml,213,895
+1099,Canadian Whiskey,100ml,216,907
+1100,Chambord,100ml,348,1462
+1101,Champane,100ml,75,315
+1102,Cider,100ml,49,206
+1103,Conac,100ml,235,987
+1104,Cointreau,100ml,320,1344
+1105,Drambuie,100ml,358,1504
+1106,Franelico,100ml,238,1000
+1107,in,100ml,263,1105
+1108,lenfiddich,100ml,230,966
+1109,rand Marnier,100ml,253,1063
+1110,Irish Whiskey,100ml,233,979
+1111,Jack Daniel’s,100ml,146,613
+1112,Jaermeister,100ml,250,1050
+1113,Jim Beam,100ml,222,932
+1114,Kahlua,100ml,180,756
+1115,Liqueur,100ml,250,1050
+1116,Liquor,100ml,250,1050
+1117,Midori,100ml,267,1121
+1118,Prosecco,100ml,66,277
+1119,Punch,100ml,62,260
+1120,Red Wine,100ml,85,357
+1121,Rose Wine,100ml,71,298
+1122,Rum,100ml,231,970
+1123,Sambuca,100ml,333,1399
+1124,Sanria,100ml,96,403
+1125,Scotch,100ml,222,932
+1126,Sherry,100ml,116,487
+1127,Sloe in,100ml,332,1394
+1128,Southern Comfort,100ml,247,1037
+1129,Tequila,100ml,110,462
+1130,Triple Sec,100ml,153,643
+1131,Vermouth,100ml,130,546
+1132,Vodka,100ml,231,970
+1133,Whisky,100ml,250,1050
+1134,White Wine,100ml,82,344
+1135,Wine,100ml,83,349
+1136,Ale,100ml,35,147
+1137,Altbier,100ml,43,181
+1138,Bass,100ml,45,189
+1139,Beck’s,100ml,39,164
+1140,Beer,100ml,43,181
+1141,Blue Moon,100ml,48,202
+1142,Bock Beer,100ml,50,210
+1143,Buckler (N.A.),100ml,21,88
+1144,Bud Ice,100ml,35,147
+1145,Bud Liht,100ml,29,122
+1146,Bud Liht Chelada,100ml,43,181
+1147,Bud Liht Lime,100ml,34,143
+1148,Bud Select,100ml,28,118
+1149,Bud Select 55,100ml,15,63
+1150,Budweiser,100ml,41,172
+1151,Budweiser Chelada,100ml,52,218
+1152,Busch,100ml,37,155
+1153,Busch Liht,100ml,27,113
+1154,Busch N.A.,100ml,17,71
+1155,Carlsber,100ml,32,134
+1156,Clausthaler (N.A.),100ml,26,109
+1157,Colt 45,100ml,44,185
+1158,Coors,100ml,42,176
+1159,Coors Liht,100ml,29,122
+1160,Coors N.A.,100ml,18,76
+1161,Corona,100ml,42,176
+1162,Dark Beer,100ml,46,193
+1163,enesee Cream Ale,100ml,46,193
+1164,iner Beer,100ml,42,176
+1165,uinness,100ml,35,147
+1166,Heineken,100ml,35,147
+1167,Honey Brown,100ml,42,176
+1168,Hurricane Hih ravity,100ml,39,164
+1169,IPA,100ml,51,214
+1170,Keystone Ice,100ml,40,168
+1171,Keystone Liht,100ml,29,122
+1172,Koelsch,100ml,43,181
+1173,Labatt,100ml,43,181
+1174,Laer Beer,100ml,43,181
+1175,Land Shark,100ml,42,176
+1176,Liht Beer,100ml,29,122
+1177,Lowenbrau,100ml,45,189
+1178,Malt Beer,100ml,37,155
+1179,Michelob Amber Bock,100ml,47,197
+1180,Michelob Laer,100ml,44,185
+1181,Michelob Liht,100ml,32,134
+1182,Michelob Ultra,100ml,27,113
+1183,Michelob Ultra Amber,100ml,26,109
+1184,Michelob Ultra Lime Cactus,100ml,27,113
+1185,Miller Chill,100ml,31,130
+1186,Miller enuine Draft,100ml,40,168
+1187,Miller Hih Life,100ml,40,168
+1188,Miller Hih Life Liht,100ml,31,130
+1189,Miller Lite,100ml,27,113
+1190,Milwaukee’s Best,100ml,36,151
+1191,Milwaukee’s Best Liht,100ml,28,118
+1192,Molson,100ml,42,176
+1193,Natural Ice,100ml,44,185
+1194,Natural Liht,100ml,27,113
+1195,Newcastle,100ml,39,164
+1196,Non-alcoholic Beer,100ml,37,155
+1197,O’Doul’s (N.A.),100ml,19,80
+1198,Old Milwaukee,100ml,41,172
+1199,Old Milwaukee N.A.,100ml,16,67
+1200,Olde Enlish,100ml,45,189
+1201,Pabst Blue Ribbon,100ml,41,172
+1202,Pale Ale,100ml,42,176
+1203,Pilsner,100ml,43,181
+1204,Porter,100ml,54,227
+1205,Redbride (luten-free),100ml,45,189
+1206,Rollin Rock,100ml,37,155
+1207,Rollin Rock Liht,100ml,30,126
+1208,Root Beer,100ml,41,172
+1209,Samuel Adams,100ml,45,189
+1210,Shock Top,100ml,47,197
+1211,Shock Top Raspberry Wheat,100ml,50,210
+1212,Sierra Nevada Stron,100ml,62,260
+1213,Sparks,100ml,74,311
+1214,St. Pauli irl,100ml,42,176
+1215,Steel Reserve,100ml,63,265
+1216,Stout,100ml,51,214
+1217,Stout Beer,100ml,51,214
+1218,Stron Beer,100ml,55,231
+1219,Tilt,100ml,64,269
+1220,Wheat Beer,100ml,45,189
+1221,ACE Drink,100ml,44,185
+1222,Apple Spritzer,100ml,24,101
+1223,Chai,100ml,0,0
+1224,Chai Tea,100ml,0,0
+1225,Chocolate Milk,100ml,89,374
+1226,Chocolate Milkshake,100ml,125,525
+1227,Club Mate,100ml,30,126
+1228,Coca Cola,100ml,42,176
+1229,Coffee,100ml,1,4
+1230,Coke Zero,100ml,1,4
+1231,Cola,100ml,42,176
+1232,Crystal Liht,100ml,263,1105
+1233,Diet Coke,100ml,1,4
+1234,E Cream,100ml,94,395
+1235,E No,100ml,88,370
+1236,Elderflower Cordial,100ml,29,122
+1237,Evian,100ml,0,0
+1238,atorade,100ml,23,97
+1239,iner Tea,100ml,0,0
+1240,Hawaiian Punch,100ml,31,130
+1241,Hi-C,100ml,49,206
+1242,Horchata,100ml,54,227
+1243,Hot Chocolate,100ml,89,374
+1244,Ice Tea,100ml,27,113
+1245,Iced Tea,100ml,27,113
+1246,Karamalz,100ml,37,155
+1247,Kombucha,100ml,13,55
+1248,Kool-Aid,100ml,26,109
+1249,Lassi,100ml,104,437
+1250,Latte Macchiato,100ml,57,239
+1251,Lemonade,100ml,42,176
+1252,Malt Beer,100ml,37,155
+1253,Milk,100ml,61,256
+1254,Milkshake (dry),100,329,1382
+1255,Milo,100,409,1718
+1256,Nectar,100ml,53,223
+1257,Nestea,100ml,36,151
+1258,Non-alcoholic Beer,100ml,37,155
+1259,Powerade,100ml,16,67
+1260,Slurpee,100ml,4,17
+1261,Slush Puppie,100ml,50,210
+1262,Smoothie,100ml,37,155
+1263,Soy Milk,100ml,45,189
+1264,Strawberry Milkshake,100ml,113,475
+1265,Tan,100,381,1600
+1266,Tap Water,100ml,0,0
+1267,Tea,100ml,1,4
+1268,Vanilla Milkshake,100ml,149,626
+1269,Volvic,100ml,0,0
+1270,Water,100ml,0,0
+1271,Yerba Mate,100ml,62,260
+1272,7up,100ml,44,185
+1273,Barq’s,100ml,46,193
+1274,Bitter Lemon,100ml,34,143
+1275,Canada Dry iner Ale,100ml,41,172
+1276,Cherry Coke,100ml,44,185
+1277,Coke,100ml,42,176
+1278,Coke Zero,100ml,0,0
+1279,Diet Cherry Coke,100ml,1,4
+1280,Diet Coke,100ml,1,4
+1281,Diet Dr. Pepper,100ml,0,0
+1282,Diet Pepsi,100ml,0,0
+1283,Diet Sunkist,100ml,0,0
+1284,Dr. Brown’s,100ml,53,223
+1285,Dr. Pepper,100ml,27,113
+1286,Fanta,100ml,39,164
+1287,Fanta Zero,100ml,0,0
+1288,Five Alive,100ml,35,147
+1289,Fresca,100ml,0,0
+1290,Full Throttle,100ml,110,462
+1291,Fuze,100ml,20,84
+1292,Fuze Tea,100ml,25,105
+1293,atorade,100ml,25,105
+1294,iner Ale,100ml,35,147
+1295,Ice Tea,100ml,27,113
+1296,Jolt Cola,100ml,44,185
+1297,Kool-Aid,100ml,26,109
+1298,Lemonade,100ml,42,176
+1299,Mello Yello,100ml,49,206
+1300,Minute Maid,100ml,46,193
+1301,Minute Maid Liht,100ml,2,8
+1302,Mu Root Beer,100ml,42,176
+1303,Orane Soda,100ml,48,202
+1304,Pepsi,100ml,44,185
+1305,Pibb Xtra,100ml,40,168
+1306,Powerade,100ml,120,504
+1307,Schweppes iner Ale,100ml,38,160
+1308,Soda,100ml,53,223
+1309,Sprite,100ml,37,155
+1310,Sprite Zero,100ml,0,0
+1311,Squirt,100ml,44,185
+1312,Sunkist,100ml,25,105
+1313,Sure,100ml,48,202
+1314,TaB,100ml,0,0
+1315,Tonic Water,100ml,35,147
+1316,Vanilla Coke,100ml,45,189
+1317,Cabernet Sauvinon,100ml,77,323
+1318,Cava,100ml,76,319
+1319,Champane,100ml,76,319
+1320,Chardonnay,100ml,85,357
+1321,Chenin Blanc,100ml,80,336
+1322,Chocolate Wine,100ml,256,1075
+1323,Dry Red Wine,100ml,85,357
+1324,amay,100ml,78,328
+1325,Malbec,100ml,82,344
+1326,Malbec Wine,100ml,82,344
+1327,Marsala Wine,100ml,100,420
+1328,Merlot,100ml,83,349
+1329,Merlot Wine,100ml,83,349
+1330,Moscato Wine,100ml,76,319
+1331,Mulled Wine,100ml,196,823
+1332,Pinot ris,100ml,83,349
+1333,Pinot Noir,100ml,75,315
+1334,Plum Wine,100ml,163,685
+1335,Port Wine,100ml,160,672
+1336,Prosecco,100ml,71,298
+1337,Red Wine,100ml,85,357
+1338,Red Wines,100ml,85,357
+1339,Rieslin,100ml,80,336
+1340,Rieslin Wine,100ml,80,336
+1341,Rose Wine,100ml,71,298
+1342,Sanria,100ml,132,554
+1343,Sauvinon Blanc,100ml,81,340
+1344,Sherry,100ml,116,487
+1345,Shiraz,100ml,71,298
+1346,Sparklin Wine,100ml,190,798
+1347,Sweet Red Wine,100ml,81,340
+1348,Sweet White Wine,100ml,82,344
+1349,Sweet Wines,100ml,83,349
+1350,Vermouth,100ml,108,454
+1351,White Wine,100ml,82,344
+1352,White Zinfandel,100ml,88,370
+1353,Wine,100ml,83,349
+1354,Yellow Tail Wine,100ml,71,298
+1355,Zinfandel,100ml,88,370
+1356,Amaranth,100,371,1558
+1357,Barley,100,354,1487
+1358,Barley roats,100,100,420
+1359,Brown Rice,100,388,1630
+1360,Buckwheat,100,343,1441
+1361,Buckwheat roats,100,346,1453
+1362,Corn Waffles,100,274,1151
+1363,Cornmeal,100,362,1520
+1364,Cornstarch,100,381,1600
+1365,Couscous,100,376,1579
+1366,Cracker,100,502,2108
+1367,Durum Wheat Semolina,100,397,1667
+1368,Flaxseed,100,534,2243
+1369,Freekeh,100,520,2184
+1370,luten,100,370,1554
+1371,rissini,100,408,1714
+1372,Kamut,100,337,1415
+1373,Millet,100,378,1588
+1374,Millet Flour,100,372,1562
+1375,Millet ruel,100,46,193
+1376,Oat Bran,100,246,1033
+1377,Pearl Barley,100,352,1478
+1378,Polenta,100,366,1537
+1379,Prawn Crackers,100,527,2213
+1380,Pretzel Sticks,100,380,1596
+1381,Quinoa,100,368,1546
+1382,Rusk,100,410,1722
+1383,Rye Bran,100,281,1180
+1384,Sao,100,354,1487
+1385,Savoury Biscuits,100,347,1457
+1386,Shortbread,100,502,2108
+1387,Spelt,100,338,1420
+1388,Spelt Bran,100,177,743
+1389,Spelt Semolina,100,360,1512
+1390,Sunflower Seeds,100,584,2453
+1391,Tortilla,100,237,995
+1392,Tortilla Chips,100,499,2096
+1393,Wheat Bran,100,216,907
+1394,Wheat erm,100,382,1604
+1395,Wheat luten,100,325,1365
+1396,Wheat Semolina,100,360,1512
+1397,Wheat Starch,100,351,1474
+1398,Whole rain Wheat,100,339,1424
+1399,Wholerain Oat,100,375,1575
+1400,Bran Flakes,100,356,1495
+1401,Cap’n Crunch,100,404,1697
+1402,Cheerios,100,347,1457
+1403,Chex,100,387,1625
+1404,Chocolate Cheerios,100,367,1541
+1405,Chocos,100,380,1596
+1406,Cinnamon Toast Crunch,100,433,1819
+1407,Coco Pops,100,376,1579
+1408,Cocoa Krispies,100,386,1621
+1409,Cocoa Pebbles,100,367,1541
+1410,Cocoa Puffs,100,400,1680
+1411,Cookie Crisp,100,400,1680
+1412,Corn Flakes,100,357,1499
+1413,Corn Pops,100,377,1583
+1414,Count Chocula,100,407,1709
+1415,Cracklin Oat Bran,100,402,1688
+1416,Cream of Wheat,100,364,1529
+1417,Crunchy Nut,100,600,2520
+1418,Crunchy Nut Cornflakes,100,600,2520
+1419,Fiber One,100,267,1121
+1420,Froot Loops,100,379,1592
+1421,Frosted Cheerios,100,393,1651
+1422,Frosted Flakes,100,367,1541
+1423,Frosted Mini-Wheats,100,353,1483
+1424,Frosties,100,367,1541
+1425,Fruity Pebbles,100,400,1680
+1426,olden rahams,100,400,1680
+1427,rape-Nuts,100,362,1520
+1428,Honey Nut Cheerios,100,393,1651
+1429,Honey Smacks,100,370,1554
+1430,Honeycomb,100,397,1667
+1431,Just Riht,100,391,1642
+1432,Kashi,100,377,1583
+1433,Kellos Corn Flakes,100,357,1499
+1434,Kix,100,367,1541
+1435,Krave,100,372,1562
+1436,Life Cereal,100,375,1575
+1437,Lucky Charms,100,406,1705
+1438,Malt-O-Meal,100,51,214
+1439,Mini-Wheats,100,353,1483
+1440,Muesli,100,336,1411
+1441,Multirain Cheerios,100,380,1596
+1442,Nutri-rain,100,351,1474
+1443,Oatibix,100,421,1768
+1444,Oatmeal,100,375,1575
+1445,Peanut Butter Toast Crunch,100,431,1810
+1446,Post Raisin Bran,100,322,1352
+1447,Post Shredded Wheat,100,347,1457
+1448,Puff,100,367,1541
+1449,Puffed Rice,100,383,1609
+1450,Puffed Wheat,100,367,1541
+1451,Quaker rits,100,344,1445
+1452,Quaker Oatmeal,100,375,1575
+1453,Quaker Oatmeal Squares,100,400,1680
+1454,Raisin Bran,100,322,1352
+1455,Raisin Bran Crunch,100,355,1491
+1456,Raisin Bran Crunch,100,355,1491
+1457,Raisin Nut Bran,100,367,1541
+1458,Ready Brek,100,359,1508
+1459,Rice Chex,100,387,1625
+1460,Rice Krispies,100,394,1655
+1461,Scooters,100,367,1541
+1462,Shredded Wheat,100,340,1428
+1463,Shreddies,100,351,1474
+1464,Smart Start,100,371,1558
+1465,Special K,100,377,1583
+1466,Special K Chocolatey Deliht,100,388,1630
+1467,Special K Protein Plus,100,375,1575
+1468,Special K Red Berries,100,345,1449
+1469,Suar Puffs,100,379,1592
+1470,Toasties,100,361,1516
+1471,Trix,100,400,1680
+1472,Weet-Bix,100,353,1483
+1473,Weetabix,100,358,1504
+1474,Weetos,100,378,1588
+1475,Wheaties,100,367,1541
+1476,Cannelloni,100,146,613
+1477,Capellini,100,353,1483
+1478,Cappelletti,100,164,689
+1479,Cellophane Noodles,100,351,1474
+1480,Cheese Tortellini,100,291,1222
+1481,Dampfnudel,100,274,1151
+1482,Dumplin Douh,100,99,416
+1483,Durum Wheat Semolina,100,397,1667
+1484,E Noodles,100,384,1613
+1485,Farfalle,100,358,1504
+1486,Fettuccine,100,353,1483
+1487,Fusilli,100,352,1478
+1488,lass Noodles,100,192,806
+1489,Lasane Sheets,100,271,1138
+1490,Linuine,100,357,1499
+1491,Low Carb Pasta,100,282,1184
+1492,Macaroni,100,370,1554
+1493,Manicotti,100,357,1499
+1494,Mostaccioli,100,184,773
+1495,Orecchiette,100,370,1554
+1496,Orzo,100,357,1499
+1497,Penne,100,351,1474
+1498,Penne Riate,100,370,1554
+1499,Pieroi,100,200,840
+1500,Ravioli,100,77,323
+1501,Riatoni,100,353,1483
+1502,Rotini,100,353,1483
+1503,Shells,100,353,1483
+1504,Shirataki Noodles,100,18,76
+1505,Soy Noodles,100,216,907
+1506,Spaetzle,100,368,1546
+1507,Spahetti,100,370,1554
+1508,Spinach Tortellini,100,314,1319
+1509,Spirelli,100,367,1541
+1510,Taliatelle,100,370,1554
+1511,Tortellini,100,291,1222
+1512,Vermicelli,100,368,1546
+1513,Whole rain Noodles,100,347,1457
+1514,Whole rain Spahetti,100,351,1474
+1515,Ziti,100,352,1478
+1516,Baby Back Ribs,100,259,1088
+1517,Bacon and Es,100,252,1058
+1518,Baked Beans,100,94,395
+1519,Baked Chicken,100,164,689
+1520,BBQ Ribs,100,255,1071
+1521,Beef Stew,100,95,399
+1522,Biryani,100,176,739
+1523,Black Puddin,100,253,1063
+1524,Black Rice,100,323,1357
+1525,BLT,100,247,1037
+1526,Brown Rice,100,362,1520
+1527,Burrito,100,163,685
+1528,Butter Chicken,100,140,588
+1529,California Roll,100,93,391
+1530,Chicken Caesar Salad,100,127,533
+1531,Chicken Fried Steak,100,151,634
+1532,Chicken Marsala,100,96,403
+1533,Chicken Parmesan,100,110,462
+1534,Chicken Pot Pie,100,223,937
+1535,Chicken Tikka Masala,100,81,340
+1536,Chili con Carne,100,105,441
+1537,Chimichana,100,232,974
+1538,Cobb Salad,100,118,496
+1539,Collard reens,100,28,118
+1540,Corn Do,100,250,1050
+1541,Corned Beef Hash,100,164,689
+1542,Cottae Pie,100,139,584
+1543,Dal,100,330,1386
+1544,Deviled Es,100,201,844
+1545,Dim Sum,100,193,811
+1546,Dosa,100,66,277
+1547,Enchiladas,100,168,706
+1548,Fajita,100,117,491
+1549,Fish and Chips,100,195,819
+1550,Fried Rice,100,186,781
+1551,Fried Shrimp,100,277,1163
+1552,rilled Cheese Sandwich,100,288,1210
+1553,Ham and Cheese Sandwich,100,241,1012
+1554,Hummus,100,177,743
+1555,Jambalaya,100,100,420
+1556,Kebab,100,215,903
+1557,Lasane,100,132,554
+1558,Mac and Cheese,100,370,1554
+1559,Macaroni and Cheese,100,370,1554
+1560,Mashed Potatoes,100,83,349
+1561,Meat Pie,100,242,1016
+1562,Meatloaf,100,254,1067
+1563,Naan,100,310,1302
+1564,Orane Chicken,100,259,1088
+1565,Pad Thai,100,150,630
+1566,Paella,100,156,655
+1567,Paratha,100,325,1365
+1568,Pea Soup,100,75,315
+1569,Peanut Butter Sandwich,100,408,1714
+1570,Pekin Duck,100,225,945
+1571,Philly Cheese Steak,100,250,1050
+1572,Pizza,100,267,1121
+1573,Pork Chop,100,225,945
+1574,Potato Salad,100,143,601
+1575,Pulled Pork Sandwich,100,211,886
+1576,Ramen,100,447,1877
+1577,Ravioli,100,203,853
+1578,Reuben Sandwich,100,208,874
+1579,Roast Beef,100,111,466
+1580,Roast Dinner,100,198,832
+1581,Samosa,100,214,899
+1582,Sausae Roll,100,350,1470
+1583,Sausae Rolls,100,297,1247
+1584,Shepherds Pie,100,70,294
+1585,Shrimp Cocktail,100,464,1949
+1586,Sloppy Joe,100,71,298
+1587,Sloppy Joes,100,154,647
+1588,Spahetti Bolonese,100,132,554
+1589,Sprin Roll,100,250,1050
+1590,Sprin Rolls,100,250,1050
+1591,Taco,100,217,911
+1592,Tandoori Chicken,100,113,475
+1593,Yorkshire Puddin,100,553,2323
+1594,Alphabet Soup,100,25,105
+1595,Bean Stew,100,133,559
+1596,Beef Bouillon,100,3,13
+1597,Beef Noodle Soup,100,34,143
+1598,Beef Soup,100,33,139
+1599,Bouillon,100,16,67
+1600,Broccoli Cheese Soup,100,87,365
+1601,Broccoli Soup,100,87,365
+1602,Cabbae Soup,100,28,118
+1603,Carrot iner Soup,100,25,105
+1604,Carrot Soup,100,25,105
+1605,Chicken Bouillon,100,4,17
+1606,Chicken Broth,100,16,67
+1607,Chicken umbo Soup,100,23,97
+1608,Chicken Noodle Soup,100,25,105
+1609,Chicken Stock,100,16,67
+1610,Chicken Veetable Soup,100,31,130
+1611,Chicken with Rice Soup,100,24,101
+1612,Cream of Asparaus Soup,100,35,147
+1613,Cream of Broccoli Soup,100,45,189
+1614,Cream of Celery Soup,100,37,155
+1615,Cream of Chicken Soup,100,48,202
+1616,Cream of Mushroom Soup,100,39,164
+1617,Cream of Onion Soup,100,44,185
+1618,Cream of Potato Soup,100,30,126
+1619,Creamy Chicken Noodle Soup,100,23,97
+1620,French Onion Soup,100,23,97
+1621,olden Mushroom Soup,100,65,273
+1622,oulash,100,1009,4238
+1623,Instant Ramen,100,436,1831
+1624,Lentil Soup,100,56,235
+1625,Lobster Bisque Soup,100,100,420
+1626,Meatball Soup,100,49,206
+1627,Minestrone,100,34,143
+1628,Mushroom Soup,100,35,147
+1629,Noodle Soup,100,34,143
+1630,Onion Soup,100,23,97
+1631,Oxtail Soup,100,28,118
+1632,Pea Soup,100,75,315
+1633,Potato Soup,100,80,336
+1634,Pumpkin Soup,100,29,122
+1635,Ramen,100,436,1831
+1636,Scotch Broth,100,33,139
+1637,Succotash,100,115,483
+1638,Thai Soup,100,60,252
+1639,Tomato Rice Soup,100,47,197
+1640,Tomato Soup,100,30,126
+1641,Veetable Beef Soup,100,31,130
+1642,Veetable Broth,100,5,21
+1643,Veetable Soup,100,28,118
+1644,Veetable Stock,100,5,21
+1645,Weddin Soup,100,53,223
+1646,Azuki Bean,100,124,521
+1647,Bamboo Shoots,100,27,113
+1648,Bean Curd,100,76,319
+1649,Bean Sprouts,100,30,126
+1650,Benal ram,100,364,1529
+1651,Black Beans,100,341,1432
+1652,Black Chickpeas,100,364,1529
+1653,Black ram,100,341,1432
+1654,Brown Lentil,100,353,1483
+1655,Butternut,100,612,2570
+1656,Chickpeas,100,364,1529
+1657,Chili Bean,100,97,407
+1658,Dal,100,230,966
+1659,Deep-Fried Tofu,100,271,1138
+1660,Extra-Firm Tofu,100,91,382
+1661,Firm Tofu,100,70,294
+1662,Flaeolet,100,85,357
+1663,Fried Bean Curd,100,271,1138
+1664,reen Beans,100,31,130
+1665,reen ram,100,347,1457
+1666,reen Lentil,100,257,1079
+1667,Kidney Beans,100,337,1415
+1668,Lentils,100,353,1483
+1669,Lima Beans,100,71,298
+1670,Marron,100,210,882
+1671,Miso,100,199,836
+1672,Mun Beans,100,12,50
+1673,Natto,100,212,890
+1674,Navy Bean,100,337,1415
+1675,Okara,100,77,323
+1676,Okra,100,33,139
+1677,Peanuts,100,567,2381
+1678,Peas,100,42,176
+1679,Pecan,100,691,2902
+1680,Pinto Beans,100,347,1457
+1681,Puy Lentils,100,345,1449
+1682,Rajma,100,140,588
+1683,Red Beans,100,124,521
+1684,Red Kidney Bean,100,337,1415
+1685,Red Lentils,100,329,1382
+1686,Refried Beans,100,91,382
+1687,Roasted Soybeans,100,471,1978
+1688,Silken Tofu,100,55,231
+1689,Soft Tofu,100,61,256
+1690,Soy Cheese,100,235,987
+1691,Soy Mayonnaise,100,322,1352
+1692,Soy Nut Butter,100,562,2360
+1693,Soy Nuts,100,471,1978
+1694,Soy Yourt,100,66,277
+1695,Soya Cheese,100,235,987
+1696,Soybeans,100,147,617
+1697,Soynut Butter,100,562,2360
+1698,Suar Peas,100,42,176
+1699,Sweet Peas,100,48,202
+1700,Tempeh,100,193,811
+1701,Textured Soy Protein,100,571,2398
+1702,Textured Veetable Protein,100,333,1399
+1703,Tofu,100,76,319
+1704,White Beans,100,336,1411
+1705,Yam Bean,100,38,160
+1706,Yellow Lentils,100,304,1277
+1707,Yuba,100,176,739
+1708,Acorn,100,387,1625
+1709,Alfalfa Sprouts,100,23,97
+1710,Almonds,100,575,2415
+1711,Beechnut,100,576,2419
+1712,Brazil Nuts,100,656,2755
+1713,Breadfruit,100,191,802
+1714,Butternut,100,612,2570
+1715,Cashew,100,553,2323
+1716,Chestnut,100,213,895
+1717,Chia Seeds,100,486,2041
+1718,Coconut,100,354,1487
+1719,Cotton Seeds,100,506,2125
+1720,Flaxseed,100,534,2243
+1721,inko Nuts,100,182,764
+1722,oa Bean,100,409,1718
+1723,Hazelnut,100,628,2638
+1724,Hickory Nuts,100,657,2759
+1725,Lima Beans,100,71,298
+1726,Lotus Seed,100,89,374
+1727,Macadamia Nuts,100,718,3016
+1728,Peanuts,100,567,2381
+1729,Peas,100,81,340
+1730,Pecan Nuts,100,691,2902
+1731,Pecans,100,691,2902
+1732,Pili Nuts,100,719,3020
+1733,Pine Nuts,100,673,2827
+1734,Pinto Beans,100,347,1457
+1735,Pistachios,100,562,2360
+1736,Poppy Seeds,100,525,2205
+1737,Pumpkin Seeds,100,559,2348
+1738,Radish Seeds,100,43,181
+1739,Safflower Seeds,100,517,2171
+1740,Sesame Seeds,100,573,2407
+1741,Smoked Almonds,100,575,2415
+1742,Soy Beans,100,147,617
+1743,Sunflower Seeds,100,584,2453
+1744,Sweet Chestnut,100,194,815
+1745,Walnuts,100,654,2747
+1746,Watermelon,100,30,126
+1747,Almond Oil,100ml,882,3704
+1748,Avocado Oil,100ml,857,3599
+1749,Butter,100,720,3024
+1750,Canola Oil,100ml,884,3713
+1751,Coconut Oil,100ml,857,3599
+1752,Cod Liver Oil,100ml,1000,4200
+1753,Corn Oil,100ml,800,3360
+1754,Cottonseed Oil,100ml,882,3704
+1755,Flaxseed Oil,100ml,884,3713
+1756,hee,100,120,504
+1757,oose Fat,100,898,3772
+1758,rape Seed Oil,100ml,884,3713
+1759,Hemp Oil,100ml,807,3389
+1760,Herrin Oil,100ml,902,3788
+1761,I can\’t believe it\’s not Butter,100,357,1499
+1762,Lard,100,902,3788
+1763,Macadamia Oil,100ml,819,3440
+1764,Mararine,100,717,3011
+1765,Mustard Oil,100ml,884,3713
+1766,Olive Oil,100ml,884,3713
+1767,Palm Oil,100ml,882,3704
+1768,Peanut Oil,100ml,857,3599
+1769,Real Butter,100,720,3024
+1770,Rice Bran Oil,100ml,889,3734
+1771,Safflower Oil,100ml,857,3599
+1772,Sardine Oil,100ml,902,3788
+1773,Sesame Oil,100ml,884,3713
+1774,Soybean Oil,100ml,889,3734
+1775,Sunflower Oil,100ml,884,3713
+1776,Walnut Oil,100ml,889,3734
+1777,Almond Oil,100ml,882,3704
+1778,Apricot Kernel Oil,100ml,889,3734
+1779,Aran Oil,100ml,896,3763
+1780,Avocado Oil,100ml,857,3599
+1781,Babassu Oil,100ml,884,3713
+1782,Canola Oil,100ml,884,3713
+1783,Coconut Oil,100ml,857,3599
+1784,Corn Oil,100ml,800,3360
+1785,Cottonseed Oil,100ml,882,3704
+1786,Flaxseed Oil,100ml,884,3713
+1787,rape Seed Oil,100ml,884,3713
+1788,Hazelnut Oil,100ml,889,3734
+1789,Linseed Oil,100ml,837,3515
+1790,Menhaden Oil,100ml,911,3826
+1791,Mustard Oil,100ml,884,3713
+1792,Oat Oil,100ml,884,3713
+1793,Olive Oil,100ml,800,3360
+1794,Palm Kernel Oil,100ml,882,3704
+1795,Palm Oil,100ml,882,3704
+1796,Peanut Oil,100ml,857,3599
+1797,Poppy Seed Oil,100ml,884,3713
+1798,Pumpkin Seed Oil,100ml,880,3696
+1799,Rice Bran Oil,100ml,889,3734
+1800,Safflower Oil,100ml,857,3599
+1801,Salmon Oil,100ml,911,3826
+1802,Sesame Oil,100ml,889,3734
+1803,Shea Oil,100ml,884,3713
+1804,Soy Oil,100ml,882,3704
+1805,Sunflower Oil,100ml,884,3713
+1806,Tomato Seed Oil,100ml,884,3713
+1807,Veetable Oil,100ml,800,3360
+1808,Walnut Oil,100ml,889,3734
+1809,Wheat erm Oil,100ml,929,3902
+1810,Aar-Aar,100,26,109
+1811,Aave Syrup,100ml,310,1302
+1812,All Purpose Flour,100ml,364,1529
+1813,Almond Extract,100ml,258,1084
+1814,Almonds,100,529,2222
+1815,Apple Pie Fillin,100,100,420
+1816,Bakin Powder,100,53,223
+1817,Bakin Soda,100,0,0
+1818,Bread Flour,100,361,1516
+1819,Brittle,100,592,2486
+1820,Brown Suar,100,395,1659
+1821,Buttermilk,100ml,62,260
+1822,Butterscotch Chips,100,539,2264
+1823,Cake Flour,100,362,1520
+1824,Candied Orane Peel,100,97,407
+1825,Cane Suar,100,387,1625
+1826,Chocolate Chips,100,467,1961
+1827,Chocolate Sprinkles,100,500,2100
+1828,Cocoa Powder,100,228,958
+1829,Coconut Flakes,100,456,1915
+1830,Coconut Milk,100ml,50,210
+1831,Corn Flour,100,361,1516
+1832,Corn Syrup,100ml,281,1180
+1833,Cornmeal,100,362,1520
+1834,Cornstarch,100,381,1600
+1835,Couverture,100,600,2520
+1836,Cream Cheese,100,54,227
+1837,Cream of Tartar,100,258,1084
+1838,Crystallized iner,100,335,1407
+1839,Custard Powder,100,337,1415
+1840,Dark Rum,100ml,216,907
+1841,Dextrose,100,375,1575
+1842,Dried Apricots,100,241,1012
+1843,Dried Cranberries,100,308,1294
+1844,Dried Fis,100,249,1046
+1845,Dried Prunes,100,107,449
+1846,Duck E,100,185,777
+1847,E,100,97,407
+1848,E No,100,88,370
+1849,E White,100,13,55
+1850,E Yolk,100,322,1352
+1851,Evaporated Milk,100,134,563
+1852,Flour,100,364,1529
+1853,Fructose,100,368,1546
+1854,elatin,100,335,1407
+1855,lucose,100,286,1201
+1856,lucose Syrup,100,387,1625
+1857,ranulated Suar,100,387,1625
+1858,round Cinnamon,100,247,1037
+1859,Hazelnuts,100,628,2638
+1860,Heavy Cream,100,345,1449
+1861,Jaery,100,383,1609
+1862,Lemon Pie Fillin,100,143,601
+1863,Malt Powder,100,361,1516
+1864,Malted Milk,100,405,1701
+1865,Maltitol,100,210,882
+1866,Maltodextrin,100,375,1575
+1867,Maltose,100,344,1445
+1868,Maple Syrup,100ml,270,1134
+1869,Molasses,100,290,1218
+1870,Nonpareils,100,475,1995
+1871,Peppermint Extract,100ml,0,0
+1872,Poppy Seeds,100,525,2205
+1873,Powdered Milk,100,496,2083
+1874,Powdered Suar,100,389,1634
+1875,Protein Powder,100,411,1726
+1876,Raisins,100,474,1991
+1877,Rice Milk,100ml,49,206
+1878,Rock Suar,100,625,2625
+1879,Rolled Oats,100,384,1613
+1880,Rum,100ml,246,1033
+1881,Semolina Flour,100,350,1470
+1882,Sesame Seeds,100,573,2407
+1883,Shredded Coconut,100,501,2104
+1884,Sorbitol,100,375,1575
+1885,Soy Milk,100ml,41,172
+1886,Soy Protein Powder,100,338,1420
+1887,Sprinkles,100,500,2100
+1888,Starch,100,381,1600
+1889,Strawberry Preserves,100,278,1168
+1890,Sucrose,100,387,1625
+1891,Suar,100,405,1701
+1892,Sunflower Seeds,100,117,491
+1893,Sweetened Condensed Milk,100ml,321,1348
+1894,Sweetener,100,360,1512
+1895,Unsalted Butter,100,717,3011
+1896,Vanilla Extract,100ml,288,1210
+1897,Vanilla Suar,100,357,1499
+1898,Veetable Oil,100,884,3713
+1899,Veetable Shortenin,100,884,3713
+1900,Walnuts,100,131,550
+1901,Whole Milk,100ml,61,256
+1902,Whole Wheat Flour,100,340,1428
+1903,Xylitol,100,240,1008
+1904,Yeast (dry),100,325,1365
+1905,Anchovy,100,131,550
+1906,Bluefish,100,159,668
+1907,Bream,100,135,567
+1908,Butterfish,100,187,785
+1909,Calamari,100,175,735
+1910,Carp,100,162,680
+1911,Caviar,100,264,1109
+1912,Clam,100,148,622
+1913,Cod,100,105,441
+1914,Crawfish,100,82,344
+1915,Crayfish,100,87,365
+1916,Eel,100,236,991
+1917,Fish Finers,100,290,1218
+1918,Fish Sticks,100,290,1218
+1919,Flounder,100,86,361
+1920,rouper,100,118,496
+1921,Haddock,100,90,378
+1922,Hake,100,71,298
+1923,Halibut,100,111,466
+1924,Herrin,100,203,853
+1925,Hoki,100,121,508
+1926,Kipper,100,217,911
+1927,Lin,100,109,458
+1928,Lobster,100,89,374
+1929,Mackerel,100,262,1100
+1930,Milkfish,100,190,798
+1931,Monkfish,100,97,407
+1932,Mullet,100,150,630
+1933,Mussel,100,172,722
+1934,Octopus,100,164,689
+1935,Pickerel,100,111,466
+1936,Pickled Herrin,100,262,1100
+1937,Pike,100,113,475
+1938,Plaice,100,91,382
+1939,Pollack,100,111,466
+1940,Red Snapper,100,128,538
+1941,Redfish,100,94,395
+1942,Rollmops,100,171,718
+1943,Salmon,100,206,865
+1944,Sardines,100,208,874
+1945,Scallops,100,111,466
+1946,Scampi,100,84,353
+1947,Sea Bass,100,124,521
+1948,Shad,100,252,1058
+1949,Shark,100,130,546
+1950,Smelt,100,124,521
+1951,Sole,100,86,361
+1952,Squid,100,92,386
+1953,Stureon,100,135,567
+1954,Sushi,100,150,630
+1955,Swordfish,100,172,722
+1956,Trierfish,100,93,391
+1957,Trout,100,190,798
+1958,Tuna,100,132,554
+1959,Tuna Salad,100,187,785
+1960,Turbot,100,122,512
+1961,Wahoo,100,167,701
+1962,Whitefish,100,172,722
+1963,Whitin,100,116,487
+1964,Zander,100,84,353
+1965,Almond Extract,100ml,374,1571
+1966,Anise,100,337,1415
+1967,Anise Seed,100,337,1415
+1968,Arrowroot,100,65,273
+1969,Aruula,100,25,105
+1970,Balsamic Vinear,100ml,88,370
+1971,Basil,100,233,979
+1972,Black Pepper,100,251,1054
+1973,Black Sesame Seeds,100,573,2407
+1974,Broth,100,100,420
+1975,Capers,100,23,97
+1976,Caraway Seeds,100,333,1399
+1977,Cardamom,100,311,1306
+1978,Cassava,100,160,672
+1979,Cayenne Pepper,100,318,1336
+1980,Chard,100,19,80
+1981,Chicory reens,100,23,97
+1982,Chicory Roots,100,72,302
+1983,Chili,100,282,1184
+1984,Chili Powder,100,282,1184
+1985,Chives,100,30,126
+1986,Cider Vinear,100ml,21,88
+1987,Cilantro,100,23,97
+1988,Cinnamon,100,247,1037
+1989,Cloves,100,274,1151
+1990,Coriander,100,23,97
+1991,Cream of Tartar,100,258,1084
+1992,Cress,100,32,134
+1993,Crystallized iner,100,335,1407
+1994,Cumin,100,375,1575
+1995,Cumin Seed,100,375,1575
+1996,Curry,100,325,1365
+1997,Dandelion,100,45,189
+1998,Dill,100,43,181
+1999,Dill Weed,100,43,181
+2000,Fennel,100,31,130
+2001,Fennel Seed,100,345,1449
+2002,Fenureek,100,323,1357
+2003,arlic,100,149,626
+2004,arlic Powder,100,331,1390
+2005,arlic Salt,100,0,0
+2006,iner,100,80,336
+2007,rape Leaves,100,93,391
+2008,round iner,100,335,1407
+2009,Horseradish,100,48,202
+2010,Hot Pepper,100,318,1336
+2011,Iodized Salt,100,0,0
+2012,Jalapeno,100,13,55
+2013,Juniper,100,45,189
+2014,Lemon rass,100,99,416
+2015,Licorice,100,375,1575
+2016,Mai,100ml,104,437
+2017,Marjoram,100,271,1138
+2018,Minced Onion,100,40,168
+2019,Mint,100,70,294
+2020,Mustard Seed,100,508,2134
+2021,Nutme,100,525,2205
+2022,Okra,100,33,139
+2023,Onion,100,40,168
+2024,Onion Powder,100,341,1432
+2025,Orane Peel,100,97,407
+2026,Oreano,100,265,1113
+2027,Paprika,100,282,1184
+2028,Parsley,100,36,151
+2029,Parsnip,100,75,315
+2030,Pepper,100,251,1054
+2031,Poppy Seed,100,525,2205
+2032,Poultry Seasonin,100,307,1289
+2033,Pumpkin Pie Spice,100,342,1436
+2034,Red Pepper,100,251,1054
+2035,Red Wine Vinear,100,19,80
+2036,Rosemary,100,131,550
+2037,Saffron,100,310,1302
+2038,Sae,100,315,1323
+2039,Salt,100,0,0
+2040,Savory,100,272,1142
+2041,Sea Salt,100,0,0
+2042,Serrano Pepper,100,32,134
+2043,Sesame Seeds,100,573,2407
+2044,Stevia,100,0,0
+2045,Tamarind,100,239,1004
+2046,Taro,100,112,470
+2047,Tarraon,100,295,1239
+2048,Thyme,100,276,1159
+2049,Turmeric,100,354,1487
+2050,Vanilla Bean,100,250,1050
+2051,Vanilla Extract,100ml,288,1210
+2052,Vinear,100ml,18,76
+2053,White Pepper,100,296,1243
+2054,Yam,100,118,496
+2055,Apple Pie,100,237,995
+2056,Apple Turnover,100,348,1462
+2057,Bael,100,257,1079
+2058,Bauette,100,274,1151
+2059,Banana Bread,100,326,1369
+2060,Banana Nut Bread,100,326,1369
+2061,Beer Bread,100,227,953
+2062,Biscuit,100,269,1130
+2063,Black Bread,100,250,1050
+2064,Bran Muffins,100,270,1134
+2065,Bread Puddin,100,153,643
+2066,Breadsticks,100,400,1680
+2067,Brioche,100,346,1453
+2068,Brown Bread,100,246,1033
+2069,Brownies,100,405,1701
+2070,Bun,100,316,1327
+2071,Cannoli,100,254,1067
+2072,Caramel Cake,100,385,1617
+2073,Challah,100,283,1189
+2074,Chapati,100,240,1008
+2075,Ciabatta,100,271,1138
+2076,Cinnamon Bun,100,436,1831
+2077,Coffee Cake,100,418,1756
+2078,Conchas/Mexican Sweet Bread,100,353,1483
+2079,Cornbread,100,179,752
+2080,Crepes,100,224,941
+2081,Croissant,100,406,1705
+2082,Crumpet,100,178,748
+2083,Cupcakes,100,305,1281
+2084,Donut/Douhnut,100,421,1768
+2085,Dosa,100,209,878
+2086,Empanada,100,335,1407
+2087,Enlish Muffin,100,227,953
+2088,Flatbread,100,311,1306
+2089,Focaccia,100,249,1046
+2090,arlic Bread,100,350,1470
+2091,Hot Do Buns,100,279,1172
+2092,Italian Bread,100,271,1138
+2093,Latkes,100,189,794
+2094,Matzo Bread,100,351,1474
+2095,Monkey Bread,100,290,1218
+2096,Muffin,100,296,1243
+2097,Multi-rain Bread,100,265,1113
+2098,Naan,100,275,1155
+2099,Oatmeal Cookies,100,450,1890
+2100,Oatmeal Raisin Cookies,100,435,1827
+2101,Pan de Sal,100,293,1231
+2102,Pancake,100,233,979
+2103,Pandesal,100,293,1231
+2104,Panettone,100,318,1336
+2105,Pide,100,268,1126
+2106,Pie,100,237,995
+2107,Pita Bread,100,275,1155
+2108,Potato Bread,100,266,1117
+2109,Pretzel,100,338,1420
+2110,Pretzel Roll,100,338,1420
+2111,Puff Pastry,100,558,2344
+2112,Pumpernickel,100,250,1050
+2113,Raisin Bread,100,274,1151
+2114,Roll,100,316,1327
+2115,Roti,100,264,1109
+2116,Rye Bread,100,259,1088
+2117,Sandwich,100,304,1277
+2118,Sandwich Bread,100,251,1054
+2119,Scone,100,362,1520
+2120,Shortcrust Pastry,100,544,2285
+2121,Soda Bread,100,290,1218
+2122,Soufflé,100,204,857
+2123,Sourdouh Bread,100,289,1214
+2124,Spanakopita,100,246,1033
+2125,Spice Cake,100,332,1394
+2126,Sweet Rolls,100,333,1399
+2127,Swiss Roll,100,313,1315
+2128,Toast,100,261,1096
+2129,Tortilla,100,297,1247
+2130,Tortilla Bread,100,265,1113
+2131,White Bread,100,238,1000
+2132,Whole Wheat Bread,100,247,1037
+2133,1000 Island Dressin,100ml,370,1554
+2134,Ajvar,100ml,18,76
+2135,Arrabiata Sauce,100,36,151
+2136,Balsamic Vinairette Dressin,100ml,290,1218
+2137,Barbecue Sauce,100,150,630
+2138,Bechamel Sauce,100,225,945
+2139,Bernaise Sauce,100,414,1739
+2140,Blue Cheese Dressin,100ml,533,2239
+2141,Bolonese,100,106,445
+2142,Buttermilk Ranch Dressin,100ml,533,2239
+2143,Caesar Dressin,100ml,429,1802
+2144,Catalina Dressin,100ml,282,1184
+2145,Chasseur Sauce,100,45,189
+2146,Chili Sauce,100,112,470
+2147,Cream Sauce,100,180,756
+2148,Curry Ketchup,100,124,521
+2149,Curry Sauce,100,26,109
+2150,French Dressin,100ml,60,252
+2151,ravy,100,53,223
+2152,reek Dressin,100ml,467,1961
+2153,Hamburer Sauce,100,383,1609
+2154,Harissa,100,52,218
+2155,Hollandaise Sauce,100,535,2247
+2156,Honey Mustard Dressin,100ml,464,1949
+2157,Horseradish,100,48,202
+2158,Italian Dressin,100ml,293,1231
+2159,Ketchup,100,100,420
+2160,Mayonnaise,100,692,2906
+2161,Mustard,100,60,252
+2162,Mustard Sauce,100,645,2709
+2163,Orane Sauce,100,179,752
+2164,Pesto,100,458,1924
+2165,Ranch Dressin,100ml,510,2142
+2166,Remoulade Sauce,100,635,2667
+2167,Russian Dressin,100ml,400,1680
+2168,Salad Dressin,100ml,449,1886
+2169,Sambal Oelek,100,21,88
+2170,Sesame iner Dressin,100ml,464,1949
+2171,Sesame Paste,100,595,2499
+2172,Sour Cream,100,217,911
+2173,Sour Cream Sauce,100,60,252
+2174,Soy Sauce,100ml,67,281
+2175,Sweet and Sour Sauce,100,179,752
+2176,Tabasco,100,70,294
+2177,Teriyaki Sauce,100,89,374
+2178,Thai Curry Paste,100,155,651
+2179,Tomato Paste,100,82,344
+2180,Tomato Puree,100,38,160
+2181,Tomato Sauce,100,24,101
+2182,Tzatziki,100,94,395
+2183,Vinairette,100ml,120,504
+2184,Worcestershire Sauce,100ml,78,328
+2185,Yourt Dressin,100ml,45,189
+2186,Zesty Italian Dressin,100ml,267,1121
+2187,Almond Butter,100,614,2579
+2188,Apple Butter,100,173,727
+2189,Applesauce,100,68,286
+2190,Apricot Jam,100,250,1050
+2191,Blackberry Jam,100,250,1050
+2192,Blackcurrant Jam,100,250,1050
+2193,Blueberry Jam,100,250,1050
+2194,Cheese Spread,100,290,1218
+2195,Cherry Jam,100,250,1050
+2196,Chocolate Philadelphia,100,287,1205
+2197,Chocolate Spread,100,541,2272
+2198,Cream Cheese,100,342,1436
+2199,E,100,97,407
+2200,rape Jelly,100,255,1071
+2201,Honey,100,304,1277
+2202,Jelly,100,278,1168
+2203,Jif Peanut Butter,100,580,2436
+2204,Liverwurst,100,305,1281
+2205,Mararine,100,717,3011
+2206,Marmite,100,225,945
+2207,Marshmallow Fluff,100,666,2797
+2208,Nutella,100,544,2285
+2209,Olive Spread,100,550,2310
+2210,"Pâté (720), Pate",100,319,1340
+2211,Peanut Butter,100,589,2474
+2212,Peter Pan Peanut Butter,100,609,2558
+2213,Philadelphia Cream Cheese,100,342,1436
+2214,Plum Jam,100,250,1050
+2215,Salted Butter,100,717,3011
+2216,Skippy Peanut Butter,100,594,2495
+2217,Smuckers Strawberry Jam,100,250,1050
+2218,Strawberry Jam,100,250,1050
+2219,Strawberry Jelly,100,250,1050
+2220,Sunbutter,100,617,2591
+2221,Sunflower Butter,100,617,2591
+2222,Tapenade,100,233,979
+2223,Unsalted Butter,100,717,3011
+2224,Veemite,100,180,756
+2225,Wild Honey,100,286,1201
