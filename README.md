@@ -10,6 +10,7 @@ Status:
       view_kcal.py
       default.py
       route.py
+      control_kcal.py
         
     
         
