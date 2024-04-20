@@ -1,5 +1,5 @@
 import flet as ft
-import control_kcal as cntrl
+import control_kcal as ctl
 import default as defa
         
 class Registerlogin_Page:
@@ -16,10 +16,6 @@ class Registerlogin_Page:
                                         
                                     )
 
-    def build(self):
-        
-        self.page_properties.apply(self.parent)
-        
         
         self.kcalori_text       =   ft.Text(
             
@@ -62,7 +58,10 @@ class Registerlogin_Page:
                                     alignment   =   ft.MainAxisAlignment.CENTER
                                 
                                 )
-
+        
+    def build(self):
+        
+        self.page_properties.apply(self.parent)
 
         return  self.all_elements_row, self.page_properties
         
@@ -78,11 +77,6 @@ class Login_Page:
                                     ft.MainAxisAlignment.CENTER
                                     
                                 )
-
-    def build(self):
-        
-        self.page_properties.apply(self.parent)
-        
         
         self.login_text             =   ft.Text(
             
@@ -150,11 +144,22 @@ class Login_Page:
                                         spacing     =   26
                                         
                                     )
+        
+        self.validate               =   ctl.ValidateButtonState(
+                                        
+                                        self.parent,
+                                        self.login_button,
+                                        self.username_text_field,
+                                        self.password_text_field
+                                    )
 
-
+    def build(self):
+        
+        self.page_properties.apply(self.parent)
+        
         return self.all_row, self.page_properties
 
-class Signup_Page():
+class Register_Page_1:
     
     def __init__(self, parent):
         
@@ -166,11 +171,6 @@ class Signup_Page():
                                     ft.MainAxisAlignment.CENTER
                                         
                                 )
-        
-    def build_wind1(self):
-        
-        self.page_properties.apply(self.parent)
-        
         
         self.signup_text         =   ft.Text(
             
@@ -247,7 +247,6 @@ class Signup_Page():
                                 
                                 ).c_debtn
         
-        
         self.return_button       =  defa.Btn(
             
                                     "Return"
@@ -288,18 +287,38 @@ class Signup_Page():
                                     
                                 )
         
+        self.validate               =   ctl.ValidateButtonState(
+                                        
+                                        self.parent,
+                                        self.next_button,
+                                        self.first_name,
+                                        self.last_name,
+                                        self.username_text_field,
+                                        self.password_text_field
+                                    )
         
-        return self.all_row, self.page_properties
-    
-    
-    def build_wind2(self):
+    def build(self):
         
         self.page_properties.apply(self.parent)
+
+        return self.all_row, self.page_properties
+
+
+class Register_Page_2:
+    
+    def __init__(self, parent):
+        
+        self.parent             =   parent
+        
+        self.page_properties    =   defa.Page(
+            
+                                    "Register Page",
+                                    ft.MainAxisAlignment.CENTER
+                                        
+                                )
         
         
-                
-        
-        self.signup_text         =   ft.Text(
+        self.signup_text        =   ft.Text(
             
                                     value       =   "Register", 
                                     size        =   45, 
@@ -310,7 +329,7 @@ class Signup_Page():
                                 )
         
         
-        self.user_profile_text   =   ft.Text(
+        self.user_profile_text  =   ft.Text(
             
                                     value       =   "Calculate BMR", 
                                     size        =   15, 
@@ -320,7 +339,7 @@ class Signup_Page():
                                 )
         
         
-        self.text_stack          =   ft.Stack(
+        self.text_stack         =   ft.Stack(
             
                                     [self.signup_text,
                                         
@@ -336,7 +355,7 @@ class Signup_Page():
                                 )   
         
         
-        self.gender_slider       =   ft.CupertinoSlidingSegmentedButton(
+        self.gender_slider      =   ft.CupertinoSlidingSegmentedButton(
                                 
                                     controls        =   [
                                         
@@ -350,7 +369,7 @@ class Signup_Page():
                                 )
                         
         
-        self.age_txtf            =   defa.TxtF(
+        self.age_txtf           =   defa.TxtF(
             
                                     label   =   "Age",
                                     h_text  =   "18 - 60"
@@ -358,7 +377,7 @@ class Signup_Page():
                                 ).c_dtxtf
         
         
-        self.height_txtf         =   defa.TxtF(
+        self.height_txtf        =   defa.TxtF(
                                 
                                     label   =   "Height",
                                     h_text  =   "in cm"
@@ -366,7 +385,7 @@ class Signup_Page():
                                 ).c_dtxtf
         
         
-        self.weight_txtf         =   defa.TxtF(
+        self.weight_txtf        =   defa.TxtF(
                                 
                                     label       =   "Weight",
                                     h_text      =   "in kg"
@@ -374,7 +393,7 @@ class Signup_Page():
                                 ).c_dtxtf
 
         
-        self.activity_level      =   ft.Dropdown(
+        self.activity_level     =   ft.Dropdown(
                                 
                                     label           =   "Activity Label",
                                     width           =   200,
@@ -391,7 +410,7 @@ class Signup_Page():
                                 )
             
         
-        self.goal                =   ft.Dropdown(
+        self.goal               =   ft.Dropdown(
                                 
                                     label       =   "Goal",
                                     width       =   200,
@@ -406,7 +425,8 @@ class Signup_Page():
                                     bgcolor     =   "White"       
                                 )
         
-        self.next_button         =   defa.Btn(
+        
+        self.next_button        =   defa.Btn(
             
                                     "Register",
                                     disabled    =   True
@@ -414,14 +434,14 @@ class Signup_Page():
                                 ).c_debtn
         
         
-        self.return_button       =   defa.Btn(
+        self.return_button      =   defa.Btn(
             
                                     "Return"
                                     
                                 ).c_debtn
         
         
-        self.sub_ret_button      =   ft.Row(
+        self.sub_ret_button     =   ft.Row(
             
                                     controls    =   [self.return_button, self.next_button], 
                                     spacing     =   3
@@ -429,7 +449,7 @@ class Signup_Page():
                                 )
         
         
-        self.elem_column         =   ft.Column(
+        self.elem_column        =   ft.Column(
             
                                     controls    =   [   
                                                     
@@ -445,7 +465,7 @@ class Signup_Page():
                                     
                                 )
 
-        self.all_row             =   ft.Row(
+        self.all_row            =   ft.Row(
             
                                     controls    =   [
                                                         self.text_stack, 
@@ -455,6 +475,21 @@ class Signup_Page():
                                     spacing     =   26
                                     
                                 )
+        
+        self.validate               =   ctl.ValidateButtonState(
+                                        
+                                        self.parent,
+                                        self.next_button,
+                                        self.age_txtf,
+                                        self.height_txtf,
+                                        self.weight_txtf,
+                                        self.activity_level,
+                                        self.goal
+                                    )
+        
+    def build(self):
+        
+        self.page_properties.apply(self.parent)
 
         return self.all_row, self.page_properties            
 
@@ -472,7 +507,7 @@ class Main_Page:
                                                     
                                             )
         
-        
+        '''
         self.page_properties_log_mean_wind  =   defa.Page(
             
                                                     "Log Meal Window", 
@@ -487,6 +522,7 @@ class Main_Page:
     def build_log_meal_wind(self):
         
         self.page_properties.apply(self.parent)
+    '''
 
 class Sub_Pages:
     
