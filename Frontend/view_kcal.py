@@ -2,7 +2,7 @@ import flet as ft
 import control_kcal as cntrl
 import default as defa
         
-class Registerlogin_Page():
+class Registerlogin_Page:
     
     def __init__(self, parent):
         
