@@ -408,10 +408,10 @@ Food_ID,Food_Item,per100rams,Cals_per100rams,KJ_per100rams
 407,Salmon Cream Cheese,100,342,1436
 408,Veetable Cream Cheese,100,342,1436
 409,Walnut Cream Cheese,100,342,1436
-410,Almond Milk,100ml,17,71
-411,Buttermilk,100ml,62,260
+410,Almond Milk,100,17,71
+411,Buttermilk,100,62,260
 412,Chocolate Mousse,100,225,945
-413,Coconut Milk,100ml,230,966
+413,Coconut Milk,100,230,966
 414,Coffee Creamer,100,195,819
 415,Condensed Milk,100,321,1348
 416,Cottae Cheese,100,98,412
@@ -421,25 +421,25 @@ Food_ID,Food_Item,per100rams,Cals_per100rams,KJ_per100rams
 420,Custard,100,122,512
 421,Evaporated Milk,100,135,567
 422,oat Milk,100,69,290
-423,Hot Chocolate,100ml,89,374
-424,Kefir,100ml,55,231
-425,Lactose-free Milk,100ml,52,218
-426,Lassi,100ml,75,315
-427,Milk,100ml,61,256
+423,Hot Chocolate,100,89,374
+424,Kefir,100,55,231
+425,Lactose-free Milk,100,52,218
+426,Lassi,100,75,315
+427,Milk,100,61,256
 428,Plain Yourt,100,61,256
 429,Powdered Milk,100,496,2083
 430,Quark,100,145,609
-431,Rice Milk,100ml,49,206
+431,Rice Milk,100,49,206
 432,Rice Puddin,100,118,496
-433,Semi-skimmed Milk,100ml,50,210
+433,Semi-skimmed Milk,100,50,210
 434,Semolina Puddin,100,67,281
-435,Skim Milk,100ml,35,147
+435,Skim Milk,100,35,147
 436,Sour Cream,100,181,760
-437,Soy Milk,100ml,45,189
-438,Sweetened Condensed Milk,100ml,321,1348
+437,Soy Milk,100,45,189
+438,Sweetened Condensed Milk,100,321,1348
 439,Tzatziki,100,117,491
 440,Whipped Cream,100,257,1079
-441,Whole Milk,100ml,61,256
+441,Whole Milk,100,61,256
 442,Yourt,100,61,256
 443,American Cheese,100,148,622
 444,Applewood,100,410,1722
@@ -479,7 +479,7 @@ Food_ID,Food_Item,per100rams,Cals_per100rams,KJ_per100rams
 478,Activia Lemon,100,100,420
 479,Activia Strawberry,100,97,407
 480,Aloe Vera Yourt,100,85,357
-481,Ayran,100ml,42,176
+481,Ayran,100,42,176
 482,Bircher Muesli Yourt,100,109,458
 483,Blueberry Yourt,100,105,441
 484,Cherry Yourt,100,97,407
@@ -1040,320 +1040,320 @@ Food_ID,Food_Item,per100rams,Cals_per100rams,KJ_per100rams
 1039,Turkey Hill,100,271,1138
 1040,Vanilla Cone,100,162,680
 1041,Vanilla Ice Cream,100,201,844
-1042,Acai Juice,100ml,58,244
-1043,Aloe Vera,100ml,44,185
-1044,Apple Juice,100ml,46,193
-1045,Apricot Nectar,100ml,56,235
-1046,Banana Juice,100ml,50,210
-1047,Blackberry Juice,100ml,48,202
-1048,Boysenberry Juice,100ml,54,227
-1049,Capri-Sun,100ml,41,172
-1050,Carrot Juice,100ml,40,168
-1051,Chamomile Tea,100ml,0,0
-1052,Cherry Juice,100ml,45,189
-1053,Clamato,100ml,60,252
-1054,Coconut Milk,100ml,233,979
-1055,Coconut Water,100ml,19,80
-1056,Concord rape,100ml,71,298
-1057,Cranberry Apple Juice,100ml,67,281
-1058,Cranberry rape Juice,100ml,71,298
-1059,Cranberry Juice,100ml,46,193
-1060,Cucumber Juice,100ml,10,42
-1061,Currant Juice,100ml,48,202
-1062,Enery-Drink,100ml,87,365
-1063,Fruitopia,100ml,110,462
-1064,rape Juice,100ml,60,252
-1065,rapefruit Juice,100ml,46,193
-1066,Lemon Juice,100ml,21,88
-1067,Lemonade,100ml,50,210
-1068,Lime Juice,100ml,21,88
-1069,Limeade,100ml,128,538
-1070,Mano Lassi,100ml,66,277
-1071,Nestea,100ml,21,88
-1072,Orane Juice,100ml,46,193
-1073,Papaya Juice,100ml,58,244
-1074,Passion Fruit Juice,100ml,48,202
-1075,Peach Juice,100ml,54,227
-1076,Peach Nectar,100ml,54,227
-1077,Pear Juice,100ml,60,252
-1078,Pear Nectar,100ml,60,252
-1079,Pineapple Juice,100ml,53,223
-1080,Pineapple Orane Juice,100ml,50,210
-1081,Plum Juice,100ml,71,298
-1082,Pomeranate Juice,100ml,66,277
-1083,Sauerkraut Juice,100ml,14,59
-1084,Tanerine Juice,100ml,43,181
-1085,Tomato Juice,100ml,17,71
-1086,Veetable Juice,100ml,21,88
-1087,White rape Juice,100ml,75,315
-1088,Absinthe,100ml,348,1462
-1089,Advocaat,100ml,283,1189
-1090,Amaretto,100ml,310,1302
-1091,Applejack,100ml,233,979
-1092,Asti,100ml,138,580
-1093,Bailey’s Irish Cream,100ml,327,1373
-1094,Baileys,100ml,327,1373
-1095,Beer,100ml,43,181
-1096,Blue Curacao,100ml,243,1021
-1097,Bourbon,100ml,233,979
-1098,Brandy,100ml,213,895
-1099,Canadian Whiskey,100ml,216,907
-1100,Chambord,100ml,348,1462
-1101,Champane,100ml,75,315
-1102,Cider,100ml,49,206
-1103,Conac,100ml,235,987
-1104,Cointreau,100ml,320,1344
-1105,Drambuie,100ml,358,1504
-1106,Franelico,100ml,238,1000
-1107,in,100ml,263,1105
-1108,lenfiddich,100ml,230,966
-1109,rand Marnier,100ml,253,1063
-1110,Irish Whiskey,100ml,233,979
-1111,Jack Daniel’s,100ml,146,613
-1112,Jaermeister,100ml,250,1050
-1113,Jim Beam,100ml,222,932
-1114,Kahlua,100ml,180,756
-1115,Liqueur,100ml,250,1050
-1116,Liquor,100ml,250,1050
-1117,Midori,100ml,267,1121
-1118,Prosecco,100ml,66,277
-1119,Punch,100ml,62,260
-1120,Red Wine,100ml,85,357
-1121,Rose Wine,100ml,71,298
-1122,Rum,100ml,231,970
-1123,Sambuca,100ml,333,1399
-1124,Sanria,100ml,96,403
-1125,Scotch,100ml,222,932
-1126,Sherry,100ml,116,487
-1127,Sloe in,100ml,332,1394
-1128,Southern Comfort,100ml,247,1037
-1129,Tequila,100ml,110,462
-1130,Triple Sec,100ml,153,643
-1131,Vermouth,100ml,130,546
-1132,Vodka,100ml,231,970
-1133,Whisky,100ml,250,1050
-1134,White Wine,100ml,82,344
-1135,Wine,100ml,83,349
-1136,Ale,100ml,35,147
-1137,Altbier,100ml,43,181
-1138,Bass,100ml,45,189
-1139,Beck’s,100ml,39,164
-1140,Beer,100ml,43,181
-1141,Blue Moon,100ml,48,202
-1142,Bock Beer,100ml,50,210
-1143,Buckler (N.A.),100ml,21,88
-1144,Bud Ice,100ml,35,147
-1145,Bud Liht,100ml,29,122
-1146,Bud Liht Chelada,100ml,43,181
-1147,Bud Liht Lime,100ml,34,143
-1148,Bud Select,100ml,28,118
-1149,Bud Select 55,100ml,15,63
-1150,Budweiser,100ml,41,172
-1151,Budweiser Chelada,100ml,52,218
-1152,Busch,100ml,37,155
-1153,Busch Liht,100ml,27,113
-1154,Busch N.A.,100ml,17,71
-1155,Carlsber,100ml,32,134
-1156,Clausthaler (N.A.),100ml,26,109
-1157,Colt 45,100ml,44,185
-1158,Coors,100ml,42,176
-1159,Coors Liht,100ml,29,122
-1160,Coors N.A.,100ml,18,76
-1161,Corona,100ml,42,176
-1162,Dark Beer,100ml,46,193
-1163,enesee Cream Ale,100ml,46,193
-1164,iner Beer,100ml,42,176
-1165,uinness,100ml,35,147
-1166,Heineken,100ml,35,147
-1167,Honey Brown,100ml,42,176
-1168,Hurricane Hih ravity,100ml,39,164
-1169,IPA,100ml,51,214
-1170,Keystone Ice,100ml,40,168
-1171,Keystone Liht,100ml,29,122
-1172,Koelsch,100ml,43,181
-1173,Labatt,100ml,43,181
-1174,Laer Beer,100ml,43,181
-1175,Land Shark,100ml,42,176
-1176,Liht Beer,100ml,29,122
-1177,Lowenbrau,100ml,45,189
-1178,Malt Beer,100ml,37,155
-1179,Michelob Amber Bock,100ml,47,197
-1180,Michelob Laer,100ml,44,185
-1181,Michelob Liht,100ml,32,134
-1182,Michelob Ultra,100ml,27,113
-1183,Michelob Ultra Amber,100ml,26,109
-1184,Michelob Ultra Lime Cactus,100ml,27,113
-1185,Miller Chill,100ml,31,130
-1186,Miller enuine Draft,100ml,40,168
-1187,Miller Hih Life,100ml,40,168
-1188,Miller Hih Life Liht,100ml,31,130
-1189,Miller Lite,100ml,27,113
-1190,Milwaukee’s Best,100ml,36,151
-1191,Milwaukee’s Best Liht,100ml,28,118
-1192,Molson,100ml,42,176
-1193,Natural Ice,100ml,44,185
-1194,Natural Liht,100ml,27,113
-1195,Newcastle,100ml,39,164
-1196,Non-alcoholic Beer,100ml,37,155
-1197,O’Doul’s (N.A.),100ml,19,80
-1198,Old Milwaukee,100ml,41,172
-1199,Old Milwaukee N.A.,100ml,16,67
-1200,Olde Enlish,100ml,45,189
-1201,Pabst Blue Ribbon,100ml,41,172
-1202,Pale Ale,100ml,42,176
-1203,Pilsner,100ml,43,181
-1204,Porter,100ml,54,227
-1205,Redbride (luten-free),100ml,45,189
-1206,Rollin Rock,100ml,37,155
-1207,Rollin Rock Liht,100ml,30,126
-1208,Root Beer,100ml,41,172
-1209,Samuel Adams,100ml,45,189
-1210,Shock Top,100ml,47,197
-1211,Shock Top Raspberry Wheat,100ml,50,210
-1212,Sierra Nevada Stron,100ml,62,260
-1213,Sparks,100ml,74,311
-1214,St. Pauli irl,100ml,42,176
-1215,Steel Reserve,100ml,63,265
-1216,Stout,100ml,51,214
-1217,Stout Beer,100ml,51,214
-1218,Stron Beer,100ml,55,231
-1219,Tilt,100ml,64,269
-1220,Wheat Beer,100ml,45,189
-1221,ACE Drink,100ml,44,185
-1222,Apple Spritzer,100ml,24,101
-1223,Chai,100ml,0,0
-1224,Chai Tea,100ml,0,0
-1225,Chocolate Milk,100ml,89,374
-1226,Chocolate Milkshake,100ml,125,525
-1227,Club Mate,100ml,30,126
-1228,Coca Cola,100ml,42,176
-1229,Coffee,100ml,1,4
-1230,Coke Zero,100ml,1,4
-1231,Cola,100ml,42,176
-1232,Crystal Liht,100ml,263,1105
-1233,Diet Coke,100ml,1,4
-1234,E Cream,100ml,94,395
-1235,E No,100ml,88,370
-1236,Elderflower Cordial,100ml,29,122
-1237,Evian,100ml,0,0
-1238,atorade,100ml,23,97
-1239,iner Tea,100ml,0,0
-1240,Hawaiian Punch,100ml,31,130
-1241,Hi-C,100ml,49,206
-1242,Horchata,100ml,54,227
-1243,Hot Chocolate,100ml,89,374
-1244,Ice Tea,100ml,27,113
-1245,Iced Tea,100ml,27,113
-1246,Karamalz,100ml,37,155
-1247,Kombucha,100ml,13,55
-1248,Kool-Aid,100ml,26,109
-1249,Lassi,100ml,104,437
-1250,Latte Macchiato,100ml,57,239
-1251,Lemonade,100ml,42,176
-1252,Malt Beer,100ml,37,155
-1253,Milk,100ml,61,256
+1042,Acai Juice,100,58,244
+1043,Aloe Vera,100,44,185
+1044,Apple Juice,100,46,193
+1045,Apricot Nectar,100,56,235
+1046,Banana Juice,100,50,210
+1047,Blackberry Juice,100,48,202
+1048,Boysenberry Juice,100,54,227
+1049,Capri-Sun,100,41,172
+1050,Carrot Juice,100,40,168
+1051,Chamomile Tea,100,0,0
+1052,Cherry Juice,100,45,189
+1053,Clamato,100,60,252
+1054,Coconut Milk,100,233,979
+1055,Coconut Water,100,19,80
+1056,Concord rape,100,71,298
+1057,Cranberry Apple Juice,100,67,281
+1058,Cranberry rape Juice,100,71,298
+1059,Cranberry Juice,100,46,193
+1060,Cucumber Juice,100,10,42
+1061,Currant Juice,100,48,202
+1062,Enery-Drink,100,87,365
+1063,Fruitopia,100,110,462
+1064,rape Juice,100,60,252
+1065,rapefruit Juice,100,46,193
+1066,Lemon Juice,100,21,88
+1067,Lemonade,100,50,210
+1068,Lime Juice,100,21,88
+1069,Limeade,100,128,538
+1070,Mano Lassi,100,66,277
+1071,Nestea,100,21,88
+1072,Orane Juice,100,46,193
+1073,Papaya Juice,100,58,244
+1074,Passion Fruit Juice,100,48,202
+1075,Peach Juice,100,54,227
+1076,Peach Nectar,100,54,227
+1077,Pear Juice,100,60,252
+1078,Pear Nectar,100,60,252
+1079,Pineapple Juice,100,53,223
+1080,Pineapple Orane Juice,100,50,210
+1081,Plum Juice,100,71,298
+1082,Pomeranate Juice,100,66,277
+1083,Sauerkraut Juice,100,14,59
+1084,Tanerine Juice,100,43,181
+1085,Tomato Juice,100,17,71
+1086,Veetable Juice,100,21,88
+1087,White rape Juice,100,75,315
+1088,Absinthe,100,348,1462
+1089,Advocaat,100,283,1189
+1090,Amaretto,100,310,1302
+1091,Applejack,100,233,979
+1092,Asti,100,138,580
+1093,Bailey’s Irish Cream,100,327,1373
+1094,Baileys,100,327,1373
+1095,Beer,100,43,181
+1096,Blue Curacao,100,243,1021
+1097,Bourbon,100,233,979
+1098,Brandy,100,213,895
+1099,Canadian Whiskey,100,216,907
+1100,Chambord,100,348,1462
+1101,Champane,100,75,315
+1102,Cider,100,49,206
+1103,Conac,100,235,987
+1104,Cointreau,100,320,1344
+1105,Drambuie,100,358,1504
+1106,Franelico,100,238,1000
+1107,in,100,263,1105
+1108,lenfiddich,100,230,966
+1109,rand Marnier,100,253,1063
+1110,Irish Whiskey,100,233,979
+1111,Jack Daniel’s,100,146,613
+1112,Jaermeister,100,250,1050
+1113,Jim Beam,100,222,932
+1114,Kahlua,100,180,756
+1115,Liqueur,100,250,1050
+1116,Liquor,100,250,1050
+1117,Midori,100,267,1121
+1118,Prosecco,100,66,277
+1119,Punch,100,62,260
+1120,Red Wine,100,85,357
+1121,Rose Wine,100,71,298
+1122,Rum,100,231,970
+1123,Sambuca,100,333,1399
+1124,Sanria,100,96,403
+1125,Scotch,100,222,932
+1126,Sherry,100,116,487
+1127,Sloe in,100,332,1394
+1128,Southern Comfort,100,247,1037
+1129,Tequila,100,110,462
+1130,Triple Sec,100,153,643
+1131,Vermouth,100,130,546
+1132,Vodka,100,231,970
+1133,Whisky,100,250,1050
+1134,White Wine,100,82,344
+1135,Wine,100,83,349
+1136,Ale,100,35,147
+1137,Altbier,100,43,181
+1138,Bass,100,45,189
+1139,Beck’s,100,39,164
+1140,Beer,100,43,181
+1141,Blue Moon,100,48,202
+1142,Bock Beer,100,50,210
+1143,Buckler (N.A.),100,21,88
+1144,Bud Ice,100,35,147
+1145,Bud Liht,100,29,122
+1146,Bud Liht Chelada,100,43,181
+1147,Bud Liht Lime,100,34,143
+1148,Bud Select,100,28,118
+1149,Bud Select 55,100,15,63
+1150,Budweiser,100,41,172
+1151,Budweiser Chelada,100,52,218
+1152,Busch,100,37,155
+1153,Busch Liht,100,27,113
+1154,Busch N.A.,100,17,71
+1155,Carlsber,100,32,134
+1156,Clausthaler (N.A.),100,26,109
+1157,Colt 45,100,44,185
+1158,Coors,100,42,176
+1159,Coors Liht,100,29,122
+1160,Coors N.A.,100,18,76
+1161,Corona,100,42,176
+1162,Dark Beer,100,46,193
+1163,enesee Cream Ale,100,46,193
+1164,iner Beer,100,42,176
+1165,uinness,100,35,147
+1166,Heineken,100,35,147
+1167,Honey Brown,100,42,176
+1168,Hurricane Hih ravity,100,39,164
+1169,IPA,100,51,214
+1170,Keystone Ice,100,40,168
+1171,Keystone Liht,100,29,122
+1172,Koelsch,100,43,181
+1173,Labatt,100,43,181
+1174,Laer Beer,100,43,181
+1175,Land Shark,100,42,176
+1176,Liht Beer,100,29,122
+1177,Lowenbrau,100,45,189
+1178,Malt Beer,100,37,155
+1179,Michelob Amber Bock,100,47,197
+1180,Michelob Laer,100,44,185
+1181,Michelob Liht,100,32,134
+1182,Michelob Ultra,100,27,113
+1183,Michelob Ultra Amber,100,26,109
+1184,Michelob Ultra Lime Cactus,100,27,113
+1185,Miller Chill,100,31,130
+1186,Miller enuine Draft,100,40,168
+1187,Miller Hih Life,100,40,168
+1188,Miller Hih Life Liht,100,31,130
+1189,Miller Lite,100,27,113
+1190,Milwaukee’s Best,100,36,151
+1191,Milwaukee’s Best Liht,100,28,118
+1192,Molson,100,42,176
+1193,Natural Ice,100,44,185
+1194,Natural Liht,100,27,113
+1195,Newcastle,100,39,164
+1196,Non-alcoholic Beer,100,37,155
+1197,O’Doul’s (N.A.),100,19,80
+1198,Old Milwaukee,100,41,172
+1199,Old Milwaukee N.A.,100,16,67
+1200,Olde Enlish,100,45,189
+1201,Pabst Blue Ribbon,100,41,172
+1202,Pale Ale,100,42,176
+1203,Pilsner,100,43,181
+1204,Porter,100,54,227
+1205,Redbride (luten-free),100,45,189
+1206,Rollin Rock,100,37,155
+1207,Rollin Rock Liht,100,30,126
+1208,Root Beer,100,41,172
+1209,Samuel Adams,100,45,189
+1210,Shock Top,100,47,197
+1211,Shock Top Raspberry Wheat,100,50,210
+1212,Sierra Nevada Stron,100,62,260
+1213,Sparks,100,74,311
+1214,St. Pauli irl,100,42,176
+1215,Steel Reserve,100,63,265
+1216,Stout,100,51,214
+1217,Stout Beer,100,51,214
+1218,Stron Beer,100,55,231
+1219,Tilt,100,64,269
+1220,Wheat Beer,100,45,189
+1221,ACE Drink,100,44,185
+1222,Apple Spritzer,100,24,101
+1223,Chai,100,0,0
+1224,Chai Tea,100,0,0
+1225,Chocolate Milk,100,89,374
+1226,Chocolate Milkshake,100,125,525
+1227,Club Mate,100,30,126
+1228,Coca Cola,100,42,176
+1229,Coffee,100,1,4
+1230,Coke Zero,100,1,4
+1231,Cola,100,42,176
+1232,Crystal Liht,100,263,1105
+1233,Diet Coke,100,1,4
+1234,E Cream,100,94,395
+1235,E No,100,88,370
+1236,Elderflower Cordial,100,29,122
+1237,Evian,100,0,0
+1238,atorade,100,23,97
+1239,iner Tea,100,0,0
+1240,Hawaiian Punch,100,31,130
+1241,Hi-C,100,49,206
+1242,Horchata,100,54,227
+1243,Hot Chocolate,100,89,374
+1244,Ice Tea,100,27,113
+1245,Iced Tea,100,27,113
+1246,Karamalz,100,37,155
+1247,Kombucha,100,13,55
+1248,Kool-Aid,100,26,109
+1249,Lassi,100,104,437
+1250,Latte Macchiato,100,57,239
+1251,Lemonade,100,42,176
+1252,Malt Beer,100,37,155
+1253,Milk,100,61,256
 1254,Milkshake (dry),100,329,1382
 1255,Milo,100,409,1718
-1256,Nectar,100ml,53,223
-1257,Nestea,100ml,36,151
-1258,Non-alcoholic Beer,100ml,37,155
-1259,Powerade,100ml,16,67
-1260,Slurpee,100ml,4,17
-1261,Slush Puppie,100ml,50,210
-1262,Smoothie,100ml,37,155
-1263,Soy Milk,100ml,45,189
-1264,Strawberry Milkshake,100ml,113,475
+1256,Nectar,100,53,223
+1257,Nestea,100,36,151
+1258,Non-alcoholic Beer,100,37,155
+1259,Powerade,100,16,67
+1260,Slurpee,100,4,17
+1261,Slush Puppie,100,50,210
+1262,Smoothie,100,37,155
+1263,Soy Milk,100,45,189
+1264,Strawberry Milkshake,100,113,475
 1265,Tan,100,381,1600
-1266,Tap Water,100ml,0,0
-1267,Tea,100ml,1,4
-1268,Vanilla Milkshake,100ml,149,626
-1269,Volvic,100ml,0,0
-1270,Water,100ml,0,0
-1271,Yerba Mate,100ml,62,260
-1272,7up,100ml,44,185
-1273,Barq’s,100ml,46,193
-1274,Bitter Lemon,100ml,34,143
-1275,Canada Dry iner Ale,100ml,41,172
-1276,Cherry Coke,100ml,44,185
-1277,Coke,100ml,42,176
-1278,Coke Zero,100ml,0,0
-1279,Diet Cherry Coke,100ml,1,4
-1280,Diet Coke,100ml,1,4
-1281,Diet Dr. Pepper,100ml,0,0
-1282,Diet Pepsi,100ml,0,0
-1283,Diet Sunkist,100ml,0,0
-1284,Dr. Brown’s,100ml,53,223
-1285,Dr. Pepper,100ml,27,113
-1286,Fanta,100ml,39,164
-1287,Fanta Zero,100ml,0,0
-1288,Five Alive,100ml,35,147
-1289,Fresca,100ml,0,0
-1290,Full Throttle,100ml,110,462
-1291,Fuze,100ml,20,84
-1292,Fuze Tea,100ml,25,105
-1293,atorade,100ml,25,105
-1294,iner Ale,100ml,35,147
-1295,Ice Tea,100ml,27,113
-1296,Jolt Cola,100ml,44,185
-1297,Kool-Aid,100ml,26,109
-1298,Lemonade,100ml,42,176
-1299,Mello Yello,100ml,49,206
-1300,Minute Maid,100ml,46,193
-1301,Minute Maid Liht,100ml,2,8
-1302,Mu Root Beer,100ml,42,176
-1303,Orane Soda,100ml,48,202
-1304,Pepsi,100ml,44,185
-1305,Pibb Xtra,100ml,40,168
-1306,Powerade,100ml,120,504
-1307,Schweppes iner Ale,100ml,38,160
-1308,Soda,100ml,53,223
-1309,Sprite,100ml,37,155
-1310,Sprite Zero,100ml,0,0
-1311,Squirt,100ml,44,185
-1312,Sunkist,100ml,25,105
-1313,Sure,100ml,48,202
-1314,TaB,100ml,0,0
-1315,Tonic Water,100ml,35,147
-1316,Vanilla Coke,100ml,45,189
-1317,Cabernet Sauvinon,100ml,77,323
-1318,Cava,100ml,76,319
-1319,Champane,100ml,76,319
-1320,Chardonnay,100ml,85,357
-1321,Chenin Blanc,100ml,80,336
-1322,Chocolate Wine,100ml,256,1075
-1323,Dry Red Wine,100ml,85,357
-1324,amay,100ml,78,328
-1325,Malbec,100ml,82,344
-1326,Malbec Wine,100ml,82,344
-1327,Marsala Wine,100ml,100,420
-1328,Merlot,100ml,83,349
-1329,Merlot Wine,100ml,83,349
-1330,Moscato Wine,100ml,76,319
-1331,Mulled Wine,100ml,196,823
-1332,Pinot ris,100ml,83,349
-1333,Pinot Noir,100ml,75,315
-1334,Plum Wine,100ml,163,685
-1335,Port Wine,100ml,160,672
-1336,Prosecco,100ml,71,298
-1337,Red Wine,100ml,85,357
-1338,Red Wines,100ml,85,357
-1339,Rieslin,100ml,80,336
-1340,Rieslin Wine,100ml,80,336
-1341,Rose Wine,100ml,71,298
-1342,Sanria,100ml,132,554
-1343,Sauvinon Blanc,100ml,81,340
-1344,Sherry,100ml,116,487
-1345,Shiraz,100ml,71,298
-1346,Sparklin Wine,100ml,190,798
-1347,Sweet Red Wine,100ml,81,340
-1348,Sweet White Wine,100ml,82,344
-1349,Sweet Wines,100ml,83,349
-1350,Vermouth,100ml,108,454
-1351,White Wine,100ml,82,344
-1352,White Zinfandel,100ml,88,370
-1353,Wine,100ml,83,349
-1354,Yellow Tail Wine,100ml,71,298
-1355,Zinfandel,100ml,88,370
+1266,Tap Water,100,0,0
+1267,Tea,100,1,4
+1268,Vanilla Milkshake,100,149,626
+1269,Volvic,100,0,0
+1270,Water,100,0,0
+1271,Yerba Mate,100,62,260
+1272,7up,100,44,185
+1273,Barq’s,100,46,193
+1274,Bitter Lemon,100,34,143
+1275,Canada Dry iner Ale,100,41,172
+1276,Cherry Coke,100,44,185
+1277,Coke,100,42,176
+1278,Coke Zero,100,0,0
+1279,Diet Cherry Coke,100,1,4
+1280,Diet Coke,100,1,4
+1281,Diet Dr. Pepper,100,0,0
+1282,Diet Pepsi,100,0,0
+1283,Diet Sunkist,100,0,0
+1284,Dr. Brown’s,100,53,223
+1285,Dr. Pepper,100,27,113
+1286,Fanta,100,39,164
+1287,Fanta Zero,100,0,0
+1288,Five Alive,100,35,147
+1289,Fresca,100,0,0
+1290,Full Throttle,100,110,462
+1291,Fuze,100,20,84
+1292,Fuze Tea,100,25,105
+1293,atorade,100,25,105
+1294,iner Ale,100,35,147
+1295,Ice Tea,100,27,113
+1296,Jolt Cola,100,44,185
+1297,Kool-Aid,100,26,109
+1298,Lemonade,100,42,176
+1299,Mello Yello,100,49,206
+1300,Minute Maid,100,46,193
+1301,Minute Maid Liht,100,2,8
+1302,Mu Root Beer,100,42,176
+1303,Orane Soda,100,48,202
+1304,Pepsi,100,44,185
+1305,Pibb Xtra,100,40,168
+1306,Powerade,100,120,504
+1307,Schweppes iner Ale,100,38,160
+1308,Soda,100,53,223
+1309,Sprite,100,37,155
+1310,Sprite Zero,100,0,0
+1311,Squirt,100,44,185
+1312,Sunkist,100,25,105
+1313,Sure,100,48,202
+1314,TaB,100,0,0
+1315,Tonic Water,100,35,147
+1316,Vanilla Coke,100,45,189
+1317,Cabernet Sauvinon,100,77,323
+1318,Cava,100,76,319
+1319,Champane,100,76,319
+1320,Chardonnay,100,85,357
+1321,Chenin Blanc,100,80,336
+1322,Chocolate Wine,100,256,1075
+1323,Dry Red Wine,100,85,357
+1324,amay,100,78,328
+1325,Malbec,100,82,344
+1326,Malbec Wine,100,82,344
+1327,Marsala Wine,100,100,420
+1328,Merlot,100,83,349
+1329,Merlot Wine,100,83,349
+1330,Moscato Wine,100,76,319
+1331,Mulled Wine,100,196,823
+1332,Pinot ris,100,83,349
+1333,Pinot Noir,100,75,315
+1334,Plum Wine,100,163,685
+1335,Port Wine,100,160,672
+1336,Prosecco,100,71,298
+1337,Red Wine,100,85,357
+1338,Red Wines,100,85,357
+1339,Rieslin,100,80,336
+1340,Rieslin Wine,100,80,336
+1341,Rose Wine,100,71,298
+1342,Sanria,100,132,554
+1343,Sauvinon Blanc,100,81,340
+1344,Sherry,100,116,487
+1345,Shiraz,100,71,298
+1346,Sparklin Wine,100,190,798
+1347,Sweet Red Wine,100,81,340
+1348,Sweet White Wine,100,82,344
+1349,Sweet Wines,100,83,349
+1350,Vermouth,100,108,454
+1351,White Wine,100,82,344
+1352,White Zinfandel,100,88,370
+1353,Wine,100,83,349
+1354,Yellow Tail Wine,100,71,298
+1355,Zinfandel,100,88,370
 1356,Amaranth,100,371,1558
 1357,Barley,100,354,1487
 1358,Barley roats,100,100,420
@@ -1745,73 +1745,73 @@ Food_ID,Food_Item,per100rams,Cals_per100rams,KJ_per100rams
 1744,Sweet Chestnut,100,194,815
 1745,Walnuts,100,654,2747
 1746,Watermelon,100,30,126
-1747,Almond Oil,100ml,882,3704
-1748,Avocado Oil,100ml,857,3599
+1747,Almond Oil,100,882,3704
+1748,Avocado Oil,100,857,3599
 1749,Butter,100,720,3024
-1750,Canola Oil,100ml,884,3713
-1751,Coconut Oil,100ml,857,3599
-1752,Cod Liver Oil,100ml,1000,4200
-1753,Corn Oil,100ml,800,3360
-1754,Cottonseed Oil,100ml,882,3704
-1755,Flaxseed Oil,100ml,884,3713
+1750,Canola Oil,100,884,3713
+1751,Coconut Oil,100,857,3599
+1752,Cod Liver Oil,100,1000,4200
+1753,Corn Oil,100,800,3360
+1754,Cottonseed Oil,100,882,3704
+1755,Flaxseed Oil,100,884,3713
 1756,hee,100,120,504
 1757,oose Fat,100,898,3772
-1758,rape Seed Oil,100ml,884,3713
-1759,Hemp Oil,100ml,807,3389
-1760,Herrin Oil,100ml,902,3788
+1758,rape Seed Oil,100,884,3713
+1759,Hemp Oil,100,807,3389
+1760,Herrin Oil,100,902,3788
 1761,I can\’t believe it\’s not Butter,100,357,1499
 1762,Lard,100,902,3788
-1763,Macadamia Oil,100ml,819,3440
+1763,Macadamia Oil,100,819,3440
 1764,Mararine,100,717,3011
-1765,Mustard Oil,100ml,884,3713
-1766,Olive Oil,100ml,884,3713
-1767,Palm Oil,100ml,882,3704
-1768,Peanut Oil,100ml,857,3599
+1765,Mustard Oil,100,884,3713
+1766,Olive Oil,100,884,3713
+1767,Palm Oil,100,882,3704
+1768,Peanut Oil,100,857,3599
 1769,Real Butter,100,720,3024
-1770,Rice Bran Oil,100ml,889,3734
-1771,Safflower Oil,100ml,857,3599
-1772,Sardine Oil,100ml,902,3788
-1773,Sesame Oil,100ml,884,3713
-1774,Soybean Oil,100ml,889,3734
-1775,Sunflower Oil,100ml,884,3713
-1776,Walnut Oil,100ml,889,3734
-1777,Almond Oil,100ml,882,3704
-1778,Apricot Kernel Oil,100ml,889,3734
-1779,Aran Oil,100ml,896,3763
-1780,Avocado Oil,100ml,857,3599
-1781,Babassu Oil,100ml,884,3713
-1782,Canola Oil,100ml,884,3713
-1783,Coconut Oil,100ml,857,3599
-1784,Corn Oil,100ml,800,3360
-1785,Cottonseed Oil,100ml,882,3704
-1786,Flaxseed Oil,100ml,884,3713
-1787,rape Seed Oil,100ml,884,3713
-1788,Hazelnut Oil,100ml,889,3734
-1789,Linseed Oil,100ml,837,3515
-1790,Menhaden Oil,100ml,911,3826
-1791,Mustard Oil,100ml,884,3713
-1792,Oat Oil,100ml,884,3713
-1793,Olive Oil,100ml,800,3360
-1794,Palm Kernel Oil,100ml,882,3704
-1795,Palm Oil,100ml,882,3704
-1796,Peanut Oil,100ml,857,3599
-1797,Poppy Seed Oil,100ml,884,3713
-1798,Pumpkin Seed Oil,100ml,880,3696
-1799,Rice Bran Oil,100ml,889,3734
-1800,Safflower Oil,100ml,857,3599
-1801,Salmon Oil,100ml,911,3826
-1802,Sesame Oil,100ml,889,3734
-1803,Shea Oil,100ml,884,3713
-1804,Soy Oil,100ml,882,3704
-1805,Sunflower Oil,100ml,884,3713
-1806,Tomato Seed Oil,100ml,884,3713
-1807,Veetable Oil,100ml,800,3360
-1808,Walnut Oil,100ml,889,3734
-1809,Wheat erm Oil,100ml,929,3902
+1770,Rice Bran Oil,100,889,3734
+1771,Safflower Oil,100,857,3599
+1772,Sardine Oil,100,902,3788
+1773,Sesame Oil,100,884,3713
+1774,Soybean Oil,100,889,3734
+1775,Sunflower Oil,100,884,3713
+1776,Walnut Oil,100,889,3734
+1777,Almond Oil,100,882,3704
+1778,Apricot Kernel Oil,100,889,3734
+1779,Aran Oil,100,896,3763
+1780,Avocado Oil,100,857,3599
+1781,Babassu Oil,100,884,3713
+1782,Canola Oil,100,884,3713
+1783,Coconut Oil,100,857,3599
+1784,Corn Oil,100,800,3360
+1785,Cottonseed Oil,100,882,3704
+1786,Flaxseed Oil,100,884,3713
+1787,rape Seed Oil,100,884,3713
+1788,Hazelnut Oil,100,889,3734
+1789,Linseed Oil,100,837,3515
+1790,Menhaden Oil,100,911,3826
+1791,Mustard Oil,100,884,3713
+1792,Oat Oil,100,884,3713
+1793,Olive Oil,100,800,3360
+1794,Palm Kernel Oil,100,882,3704
+1795,Palm Oil,100,882,3704
+1796,Peanut Oil,100,857,3599
+1797,Poppy Seed Oil,100,884,3713
+1798,Pumpkin Seed Oil,100,880,3696
+1799,Rice Bran Oil,100,889,3734
+1800,Safflower Oil,100,857,3599
+1801,Salmon Oil,100,911,3826
+1802,Sesame Oil,100,889,3734
+1803,Shea Oil,100,884,3713
+1804,Soy Oil,100,882,3704
+1805,Sunflower Oil,100,884,3713
+1806,Tomato Seed Oil,100,884,3713
+1807,Veetable Oil,100,800,3360
+1808,Walnut Oil,100,889,3734
+1809,Wheat erm Oil,100,929,3902
 1810,Aar-Aar,100,26,109
-1811,Aave Syrup,100ml,310,1302
-1812,All Purpose Flour,100ml,364,1529
-1813,Almond Extract,100ml,258,1084
+1811,Aave Syrup,100,310,1302
+1812,All Purpose Flour,100,364,1529
+1813,Almond Extract,100,258,1084
 1814,Almonds,100,529,2222
 1815,Apple Pie Fillin,100,100,420
 1816,Bakin Powder,100,53,223
@@ -1819,7 +1819,7 @@ Food_ID,Food_Item,per100rams,Cals_per100rams,KJ_per100rams
 1818,Bread Flour,100,361,1516
 1819,Brittle,100,592,2486
 1820,Brown Suar,100,395,1659
-1821,Buttermilk,100ml,62,260
+1821,Buttermilk,100,62,260
 1822,Butterscotch Chips,100,539,2264
 1823,Cake Flour,100,362,1520
 1824,Candied Orane Peel,100,97,407
@@ -1828,9 +1828,9 @@ Food_ID,Food_Item,per100rams,Cals_per100rams,KJ_per100rams
 1827,Chocolate Sprinkles,100,500,2100
 1828,Cocoa Powder,100,228,958
 1829,Coconut Flakes,100,456,1915
-1830,Coconut Milk,100ml,50,210
+1830,Coconut Milk,100,50,210
 1831,Corn Flour,100,361,1516
-1832,Corn Syrup,100ml,281,1180
+1832,Corn Syrup,100,281,1180
 1833,Cornmeal,100,362,1520
 1834,Cornstarch,100,381,1600
 1835,Couverture,100,600,2520
@@ -1838,7 +1838,7 @@ Food_ID,Food_Item,per100rams,Cals_per100rams,KJ_per100rams
 1837,Cream of Tartar,100,258,1084
 1838,Crystallized iner,100,335,1407
 1839,Custard Powder,100,337,1415
-1840,Dark Rum,100ml,216,907
+1840,Dark Rum,100,216,907
 1841,Dextrose,100,375,1575
 1842,Dried Apricots,100,241,1012
 1843,Dried Cranberries,100,308,1294
@@ -1866,24 +1866,24 @@ Food_ID,Food_Item,per100rams,Cals_per100rams,KJ_per100rams
 1865,Maltitol,100,210,882
 1866,Maltodextrin,100,375,1575
 1867,Maltose,100,344,1445
-1868,Maple Syrup,100ml,270,1134
+1868,Maple Syrup,100,270,1134
 1869,Molasses,100,290,1218
 1870,Nonpareils,100,475,1995
-1871,Peppermint Extract,100ml,0,0
+1871,Peppermint Extract,100,0,0
 1872,Poppy Seeds,100,525,2205
 1873,Powdered Milk,100,496,2083
 1874,Powdered Suar,100,389,1634
 1875,Protein Powder,100,411,1726
 1876,Raisins,100,474,1991
-1877,Rice Milk,100ml,49,206
+1877,Rice Milk,100,49,206
 1878,Rock Suar,100,625,2625
 1879,Rolled Oats,100,384,1613
-1880,Rum,100ml,246,1033
+1880,Rum,100,246,1033
 1881,Semolina Flour,100,350,1470
 1882,Sesame Seeds,100,573,2407
 1883,Shredded Coconut,100,501,2104
 1884,Sorbitol,100,375,1575
-1885,Soy Milk,100ml,41,172
+1885,Soy Milk,100,41,172
 1886,Soy Protein Powder,100,338,1420
 1887,Sprinkles,100,500,2100
 1888,Starch,100,381,1600
@@ -1891,15 +1891,15 @@ Food_ID,Food_Item,per100rams,Cals_per100rams,KJ_per100rams
 1890,Sucrose,100,387,1625
 1891,Suar,100,405,1701
 1892,Sunflower Seeds,100,117,491
-1893,Sweetened Condensed Milk,100ml,321,1348
+1893,Sweetened Condensed Milk,100,321,1348
 1894,Sweetener,100,360,1512
 1895,Unsalted Butter,100,717,3011
-1896,Vanilla Extract,100ml,288,1210
+1896,Vanilla Extract,100,288,1210
 1897,Vanilla Suar,100,357,1499
 1898,Veetable Oil,100,884,3713
 1899,Veetable Shortenin,100,884,3713
 1900,Walnuts,100,131,550
-1901,Whole Milk,100ml,61,256
+1901,Whole Milk,100,61,256
 1902,Whole Wheat Flour,100,340,1428
 1903,Xylitol,100,240,1008
 1904,Yeast (dry),100,325,1365
@@ -1963,12 +1963,12 @@ Food_ID,Food_Item,per100rams,Cals_per100rams,KJ_per100rams
 1962,Whitefish,100,172,722
 1963,Whitin,100,116,487
 1964,Zander,100,84,353
-1965,Almond Extract,100ml,374,1571
+1965,Almond Extract,100,374,1571
 1966,Anise,100,337,1415
 1967,Anise Seed,100,337,1415
 1968,Arrowroot,100,65,273
 1969,Aruula,100,25,105
-1970,Balsamic Vinear,100ml,88,370
+1970,Balsamic Vinear,100,88,370
 1971,Basil,100,233,979
 1972,Black Pepper,100,251,1054
 1973,Black Sesame Seeds,100,573,2407
@@ -1984,7 +1984,7 @@ Food_ID,Food_Item,per100rams,Cals_per100rams,KJ_per100rams
 1983,Chili,100,282,1184
 1984,Chili Powder,100,282,1184
 1985,Chives,100,30,126
-1986,Cider Vinear,100ml,21,88
+1986,Cider Vinear,100,21,88
 1987,Cilantro,100,23,97
 1988,Cinnamon,100,247,1037
 1989,Cloves,100,274,1151
@@ -2014,7 +2014,7 @@ Food_ID,Food_Item,per100rams,Cals_per100rams,KJ_per100rams
 2013,Juniper,100,45,189
 2014,Lemon rass,100,99,416
 2015,Licorice,100,375,1575
-2016,Mai,100ml,104,437
+2016,Mai,100,104,437
 2017,Marjoram,100,271,1138
 2018,Minced Onion,100,40,168
 2019,Mint,100,70,294
@@ -2049,8 +2049,8 @@ Food_ID,Food_Item,per100rams,Cals_per100rams,KJ_per100rams
 2048,Thyme,100,276,1159
 2049,Turmeric,100,354,1487
 2050,Vanilla Bean,100,250,1050
-2051,Vanilla Extract,100ml,288,1210
-2052,Vinear,100ml,18,76
+2051,Vanilla Extract,100,288,1210
+2052,Vinear,100,18,76
 2053,White Pepper,100,296,1243
 2054,Yam,100,118,496
 2055,Apple Pie,100,237,995
@@ -2131,48 +2131,48 @@ Food_ID,Food_Item,per100rams,Cals_per100rams,KJ_per100rams
 2130,Tortilla Bread,100,265,1113
 2131,White Bread,100,238,1000
 2132,Whole Wheat Bread,100,247,1037
-2133,1000 Island Dressin,100ml,370,1554
-2134,Ajvar,100ml,18,76
+2133,1000 Island Dressin,100,370,1554
+2134,Ajvar,100,18,76
 2135,Arrabiata Sauce,100,36,151
-2136,Balsamic Vinairette Dressin,100ml,290,1218
+2136,Balsamic Vinairette Dressin,100,290,1218
 2137,Barbecue Sauce,100,150,630
 2138,Bechamel Sauce,100,225,945
 2139,Bernaise Sauce,100,414,1739
-2140,Blue Cheese Dressin,100ml,533,2239
+2140,Blue Cheese Dressin,100,533,2239
 2141,Bolonese,100,106,445
-2142,Buttermilk Ranch Dressin,100ml,533,2239
-2143,Caesar Dressin,100ml,429,1802
-2144,Catalina Dressin,100ml,282,1184
+2142,Buttermilk Ranch Dressin,100,533,2239
+2143,Caesar Dressin,100,429,1802
+2144,Catalina Dressin,100,282,1184
 2145,Chasseur Sauce,100,45,189
 2146,Chili Sauce,100,112,470
 2147,Cream Sauce,100,180,756
 2148,Curry Ketchup,100,124,521
 2149,Curry Sauce,100,26,109
-2150,French Dressin,100ml,60,252
+2150,French Dressin,100,60,252
 2151,ravy,100,53,223
-2152,reek Dressin,100ml,467,1961
+2152,reek Dressin,100,467,1961
 2153,Hamburer Sauce,100,383,1609
 2154,Harissa,100,52,218
 2155,Hollandaise Sauce,100,535,2247
-2156,Honey Mustard Dressin,100ml,464,1949
+2156,Honey Mustard Dressin,100,464,1949
 2157,Horseradish,100,48,202
-2158,Italian Dressin,100ml,293,1231
+2158,Italian Dressin,100,293,1231
 2159,Ketchup,100,100,420
 2160,Mayonnaise,100,692,2906
 2161,Mustard,100,60,252
 2162,Mustard Sauce,100,645,2709
 2163,Orane Sauce,100,179,752
 2164,Pesto,100,458,1924
-2165,Ranch Dressin,100ml,510,2142
+2165,Ranch Dressin,100,510,2142
 2166,Remoulade Sauce,100,635,2667
-2167,Russian Dressin,100ml,400,1680
-2168,Salad Dressin,100ml,449,1886
+2167,Russian Dressin,100,400,1680
+2168,Salad Dressin,100,449,1886
 2169,Sambal Oelek,100,21,88
-2170,Sesame iner Dressin,100ml,464,1949
+2170,Sesame iner Dressin,100,464,1949
 2171,Sesame Paste,100,595,2499
 2172,Sour Cream,100,217,911
 2173,Sour Cream Sauce,100,60,252
-2174,Soy Sauce,100ml,67,281
+2174,Soy Sauce,100,67,281
 2175,Sweet and Sour Sauce,100,179,752
 2176,Tabasco,100,70,294
 2177,Teriyaki Sauce,100,89,374
@@ -2181,10 +2181,10 @@ Food_ID,Food_Item,per100rams,Cals_per100rams,KJ_per100rams
 2180,Tomato Puree,100,38,160
 2181,Tomato Sauce,100,24,101
 2182,Tzatziki,100,94,395
-2183,Vinairette,100ml,120,504
-2184,Worcestershire Sauce,100ml,78,328
-2185,Yourt Dressin,100ml,45,189
-2186,Zesty Italian Dressin,100ml,267,1121
+2183,Vinairette,100,120,504
+2184,Worcestershire Sauce,100,78,328
+2185,Yourt Dressin,100,45,189
+2186,Zesty Italian Dressin,100,267,1121
 2187,Almond Butter,100,614,2579
 2188,Apple Butter,100,173,727
 2189,Applesauce,100,68,286

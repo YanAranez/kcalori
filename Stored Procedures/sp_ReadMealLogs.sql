@@ -1,0 +1,18 @@
+USE CaloriePal;
+
+GO
+
+CREATE PROCEDURE sp_ReadMealLogs
+
+
+AS
+
+BEGIN
+
+	SET NOCOUNT ON;
+
+	SELECT * FROM dbo.Meal_Logs;
+
+	SET NOCOUNT OFF;
+
+END;
