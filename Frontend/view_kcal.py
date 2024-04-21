@@ -100,7 +100,8 @@ class Login_Page:
             
                                         label       =   'Password',
                                         password    =   True,
-                                        c_r_pw      =   True
+                                        c_r_pw      =   True,
+                                        h_text      =   "8: a, B, 1, !"
                                 
                                     ).c_dtxtf
         
@@ -153,6 +154,9 @@ class Login_Page:
                                         self.password_text_field
                                     )
 
+        #errors
+        
+        
     def build(self):
         
         self.page_properties.apply(self.parent)
@@ -234,7 +238,8 @@ class Register_Page_1:
             
                                     label       =   "Password",
                                     password    =   True,
-                                    c_r_pw      =   True
+                                    c_r_pw      =   True,
+                                    h_text      =   "8: a, B, 1, !"
                                         
                                 ).c_dtxtf
         
@@ -302,7 +307,6 @@ class Register_Page_1:
         self.page_properties.apply(self.parent)
 
         return self.all_row, self.page_properties
-
 
 class Register_Page_2:
     
@@ -506,23 +510,24 @@ class Main_Page:
                                                     ft.MainAxisAlignment.CENTER
                                                     
                                             )
-        
-        '''
-        self.page_properties_log_mean_wind  =   defa.Page(
-            
-                                                    "Log Meal Window", 
-                                                    ft.MainAxisAlignment.CENTER
-                                                    
-                                            )
     
     def build_main(self):
         
+        
+        
         self.page_properties.apply(self.parent)
+        
+class Log_Meal_Window:
+    
+    def __init__(self, parent):
+        
+        pass
+    
+
 
     def build_log_meal_wind(self):
         
         self.page_properties.apply(self.parent)
-    '''
 
 class Sub_Pages:
     
