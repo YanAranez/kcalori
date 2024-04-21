@@ -44,14 +44,16 @@ class Btn:
 
 class TxtF:
     
-    def __init__(self, label, width = None, password = None, c_r_pw = None, ta = None, color = None, fclr = None, h_text = None):
+    def __init__(self, label, ls = None, width = None, password = None, c_r_pw = None, ta = None, color = None, fclr = None, h_text = None, hv = None):
         
         self.label      =   label
+        self.ls         =   ls          or  ft.TextStyle(color = '#0C2D57')
         self.width      =   width       or  200
         self.password   =   password    or  False
         self.c_r_pw     =   c_r_pw      or  False
         self.ta         =   ta          or  ft.TextAlign.LEFT
         self.color      =   color       or  '#0C2D57'
+        self.hv         =   hv          or  '#99DBF5'
         self.fclr       =   fclr        or  'White'
         self.h_text     =   h_text
     
@@ -61,24 +63,16 @@ class TxtF:
         
         return ft.TextField(
             label               =   self.label,
+            label_style         =   self.ls,
             width               =   self.width,
             password            =   self.password,
             can_reveal_password =   self.c_r_pw,
             text_align          =   self.ta,
-            hover_color         =   self.color,
+            hover_color         =   self.hv,
             fill_color          =   self.fclr,
             color               =   self.color,
             border_color        =   self.color,
             hint_text           =   self.h_text,
             hint_style          =   ft.TextStyle(color  =  self.color)
         )
-            
-class page_Actions:
-    
-    def __init__(self, page):
 
-        self.page = page
-    
-    def reset(self):
-        
-        self.page.clean()
