@@ -44,7 +44,7 @@ class Btn:
 
 class TxtF:
     
-    def __init__(self, label, ls = None, width = None, password = None, c_r_pw = None, ta = None, color = None, fclr = None, h_text = None, hv = None):
+    def __init__(self, label, ls = None, width = None, password = None, c_r_pw = None, ta = None, color = None, bdr_color = None, fclr = None, h_text = None, hv = None):
         
         self.label      =   label
         self.ls         =   ls          or  ft.TextStyle(color = '#0C2D57')
@@ -53,6 +53,7 @@ class TxtF:
         self.c_r_pw     =   c_r_pw      or  False
         self.ta         =   ta          or  ft.TextAlign.LEFT
         self.color      =   color       or  '#0C2D57'
+        self.bdr_color  =   bdr_color   or  '#0C2D57'
         self.hv         =   hv          or  '#99DBF5'
         self.fclr       =   fclr        or  'White'
         self.h_text     =   h_text
@@ -71,7 +72,7 @@ class TxtF:
             hover_color         =   self.hv,
             fill_color          =   self.fclr,
             color               =   self.color,
-            border_color        =   self.color,
+            border_color        =   self.bdr_color,
             hint_text           =   self.h_text,
             hint_style          =   ft.TextStyle(color  =  self.color)
         )
