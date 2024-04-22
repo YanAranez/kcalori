@@ -1,6 +1,7 @@
 import flet as ft
 import view_kcal as v
 import default as defa
+import model_kcal as m
 import re
 
 class ValidateButtonState:
@@ -125,7 +126,52 @@ class ValidateButtonState:
             conditions_met += 1
         
         return conditions_met >= 3
+
+    
+class ValidateUserExists:
+    
+    def __init__(self, username):
         
+        self.username   =   username
+        self.exists     =   False
+        
+        self.check_exists()
+
+    def check_exists(self):
+        # Check if the username exists in the user_data dictionary
+        if not self.username:
+            # Username is empty, set exists to False and return
+            self.exists = False
+            return
+        
+        user_data = m.read_User.read()
+        if self.username in user_data:
+            self.exists = True
+                
+                
+class ValidateLoginPassword:
+    
+    def __init__(self, username, password):
+        
+        self.username   =   username
+        self.password   =   password
+        self.correct    =   False
+        
+        self.check_password()
+
+    def check_password(self):
+        
+        user_data = m.read_User.read()
+        
+        if self.username in user_data:
+            # Assuming the password is stored in user_data[username]['password']
+            stored_password = user_data[self.username].get('password', '')
+            
+            if self.password == stored_password:
+                self.correct = True
+            
+        else:
+            self.correct = False
         
         
          

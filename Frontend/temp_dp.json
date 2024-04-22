@@ -1,0 +1,14 @@
+{
+    "I": {
+        "first_name": "Me",
+        "last_name": "U",
+        "username": "I",
+        "password": "Pass123.",
+        "gender": 0,
+        "age": "23",
+        "weight": "34",
+        "height": "54",
+        "activity_level": "Lightly Active",
+        "goal": "Mild Weight Loss"
+    }
+}
