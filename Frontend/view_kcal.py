@@ -153,15 +153,59 @@ class Login_Page:
                                         self.username_text_field,
                                         self.password_text_field
                                     )
-
-        #errors
         
+        self.username_not_exists    =   defa.AlertDia(
+                                        
+                                        title       =   "Invalid Username!",
+                                        content     =   "Register first if you do not have an account yet"
+                                        
+                                    ).c_dalertdia
+        
+        self.incorrect_pw           =   defa.AlertDia(
+                                        
+                                        title       =   "Incorrect Password??",
+                                        content     =   "The account exists but your password is incorrect... hmm.."
+                                                        
+                                    ).c_dalertdia
+        
+        self.success_login          =   defa.AlertDia(
+                                        
+                                        title       =   "Welcome Back!",
+                                        content     =   "Successfully logged in"
+                                                        
+                                    ).c_dalertdia
         
     def build(self):
         
         self.page_properties.apply(self.parent)
         
         return self.all_row, self.page_properties
+    
+    
+    def update(self):
+        
+        self.parent.update()
+    
+    
+    def error_dialog_2(self):
+
+        self.parent.dialog              =   self.username_not_exists
+        self.username_not_exists.open   =   True
+        self.update()
+    
+    
+    def error_dialog_3(self):
+
+        self.parent.dialog              =   self.incorrect_pw
+        self.incorrect_pw.open   =   True
+        self.update()
+        
+    def success_dialog(self):
+
+        self.parent.dialog              =   self.success_login
+        self.success_login.open   =   True
+        self.update()
+        
 
 class Register_Page_1:
     
@@ -307,6 +351,7 @@ class Register_Page_1:
         self.page_properties.apply(self.parent)
 
         return self.all_row, self.page_properties
+    
 
 class Register_Page_2:
     
@@ -491,11 +536,44 @@ class Register_Page_2:
                                         self.goal
                                     )
         
+        
+        self.username_alr_exists    =   defa.AlertDia(
+                                        
+                                        title       =   "Oops...",
+                                        content     =   "Username already exists :<"
+                                        
+                                    ).c_dalertdia
+        
+        self.success_register       =   defa.AlertDia(
+                                        
+                                        title       =   "Welcome to kcalori!",
+                                        content     =   "Successfully registered"
+                                                        
+                                    ).c_dalertdia
+        
+        
     def build(self):
         
         self.page_properties.apply(self.parent)
 
-        return self.all_row, self.page_properties            
+        return self.all_row, self.page_properties  
+    
+    def update(self):
+        
+        self.parent.update()   
+            
+    def error_dialog_1(self):
+
+        self.parent.dialog              =   self.username_alr_exists
+        self.username_alr_exists.open   =   True
+        self.update()
+        
+    def success_dialog(self):
+
+        self.parent.dialog              =   self.success_register
+        self.success_register.open      =   True
+        self.update()
+        
 
 class Main_Page:
     

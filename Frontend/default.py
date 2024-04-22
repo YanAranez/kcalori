@@ -33,6 +33,7 @@ class Btn:
     def c_debtn(self):
         
         return ft.ElevatedButton(
+            
             text        =   self.text,
             icon        =   self.icon,
             height      =   self.height,
@@ -63,6 +64,7 @@ class TxtF:
     def c_dtxtf(self):
         
         return ft.TextField(
+            
             label               =   self.label,
             label_style         =   self.ls,
             width               =   self.width,
@@ -77,3 +79,38 @@ class TxtF:
             hint_style          =   ft.TextStyle(color  =  self.color)
         )
 
+class AlertDia:
+    
+    def __init__(self, title = None, weight = None, color = None, text_align = None, content = None, text_align_2 = None, bgcolor = None):
+        
+        self.title          =   title
+        self.weight         =   weight          or  ft.FontWeight.BOLD
+        self.color          =   color           or  "White"
+        self.text_align     =   text_align      or  ft.MainAxisAlignment.CENTER
+        self.content        =   content        
+        self.text_align_2   =   text_align_2    or  "Center"
+        self.bgcolor        =   bgcolor         or  "#0C2D57"   
+    
+    @property
+    
+    def c_dalertdia(self):
+        
+        return ft.AlertDialog(
+            
+            title       =   ft.Text(
+                    
+                            self.title,
+                            weight      =   self.weight,
+                            color       =   self.color,
+                            text_align  =   self.text_align
+                        ),
+            
+            content     =   ft.Text(
+                
+                            self.content,
+                            color       =   self.color,
+                            text_align  =   self.text_align_2
+                        ),
+            
+            bgcolor     =   self.bgcolor
+        )
