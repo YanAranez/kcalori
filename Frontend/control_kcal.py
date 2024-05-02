@@ -5,7 +5,9 @@ import model_kcal as m
 import re
 
 class ValidateButtonState:
-    
+
+##  VALIDATES BUTTON STATES IN REGISTER AND/OR LOGIN PAGE
+
     def __init__(self, page, button, *fields):
         
         self.page       =   page
@@ -129,7 +131,9 @@ class ValidateButtonState:
 
     
 class ValidateUserExists:
-    
+
+##  VALIDATES IF USER EXISTS IN DB
+
     def __init__(self, username):
         
         self.username   =   username
@@ -150,6 +154,8 @@ class ValidateUserExists:
                 
                 
 class ValidateLoginPassword:
+    
+##  VALIDATE IF PASSWORD IS CORRECT IN RESPECT TO THE USERNAME PROVIDED
     
     def __init__(self, username, password):
         

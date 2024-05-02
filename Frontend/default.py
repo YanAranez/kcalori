@@ -1,24 +1,71 @@
 import flet as ft
 
-class Page:
-    
-    def __init__(self, title, vert_alignment = None):
+class Small_Page:
+
+##  DEFAULT PAGE PROPERTIES
+
+    def __init__(
+                    self, 
+                    title, 
+                    vert_alignment = None, 
+                    hori_alignment = None
+                ):
         
-        self.title      =   title
-        self.alignment  =   vert_alignment
+        self.title          =   title
+        self.v_alignment    =   vert_alignment
+        self.h_alignment    =   hori_alignment    
         
     def apply(self, page):
         
-        page.title              =   self.title
-        page.vertical_alignment =   self.alignment
-        page.window_width       =   1000
-        page.window_height      =   600
-        page.bgcolor            =   "WHITE"
-        page.window_resizable   =   False
+        page.title                  =   self.title
+        page.vertical_alignment     =   self.v_alignment
+        page.horizontal_alignment   =   self.h_alignment
+        page.window_width           =   650
+        page.window_height          =   500
+        page.bgcolor                =   "WHITE"
+        page.window_resizable       =   False
+        
+        
+class Main_Page:
+
+##  DEFAULT PAGE PROPERTIES
+
+    def __init__(
+                    self, 
+                    title, 
+                    vert_alignment = None, 
+                    hori_alignment = None
+                ):
+        
+        self.title          =   title
+        self.v_alignment    =   vert_alignment
+        self.h_alignment    =   hori_alignment    
+        
+    def apply(self, page):
+        
+        page.title                  =   self.title
+        page.vertical_alignment     =   self.v_alignment
+        page.horizontal_alignment   =   self.h_alignment
+        page.window_width           =   1000
+        page.window_height          =   700
+        page.bgcolor                =   "WHITE"
+        page.window_resizable       =   False
 
 class Btn:
+    
+##  DEFAULT BUTTON PROPERTIES
 
-    def __init__(self, text, icon = None, on_click = None, height = None, bgcolor = None, color = None, disabled = None):
+    def __init__(
+                    self, 
+                    text, 
+                    icon        =   None, 
+                    on_click    =   None, 
+                    height      =   None, 
+                    bgcolor     =   None, 
+                    color       =   None,
+                    disabled    =   None,
+                    alignment   =   None
+                ):
         
         self.text       =   text
         self.icon       =   icon
@@ -45,7 +92,22 @@ class Btn:
 
 class TxtF:
     
-    def __init__(self, label, ls = None, width = None, password = None, c_r_pw = None, ta = None, color = None, bdr_color = None, fclr = None, h_text = None, hv = None):
+##  DEFAULT TEXT FIELD PROPERTIES
+    
+    def __init__(
+                    self, 
+                    label, 
+                    ls         =   None, 
+                    width      =   None, 
+                    password   =   None, 
+                    c_r_pw     =   None, 
+                    ta         =   None, 
+                    color      =   None, 
+                    bdr_color  =   None, 
+                    fclr       =   None, 
+                    h_text     =   None, 
+                    hv         =   None
+                ):
         
         self.label      =   label
         self.ls         =   ls          or  ft.TextStyle(color = '#0C2D57')
@@ -81,7 +143,19 @@ class TxtF:
 
 class AlertDia:
     
-    def __init__(self, title = None, weight = None, color = None, text_align = None, content = None, text_align_2 = None, bgcolor = None):
+##  DEFAULT ALERT DIALOG (ERROR) PROPERTIES
+    
+    def __init__(
+                    self, 
+                    title           =   None, 
+                    weight          =   None, 
+                    color           =   None, 
+                    text_align      =   None, 
+                    content         =   None, 
+                    text_align_2    =   None, 
+                    bgcolor         =   None,
+                    on_dismiss      =   None
+                ):
         
         self.title          =   title
         self.weight         =   weight          or  ft.FontWeight.BOLD
@@ -90,6 +164,7 @@ class AlertDia:
         self.content        =   content        
         self.text_align_2   =   text_align_2    or  "Center"
         self.bgcolor        =   bgcolor         or  "#0C2D57"   
+        self.on_dismiss     =   on_dismiss
     
     @property
     
@@ -112,5 +187,103 @@ class AlertDia:
                             text_align  =   self.text_align_2
                         ),
             
-            bgcolor     =   self.bgcolor
+            bgcolor     =   self.bgcolor,
+            on_dismiss  =   self.on_dismiss
         )
+
+class NavigDestination:
+    
+##  DEFAULT NAVIGATION DESTINATION (NAVIGATION BAR) PROPERTIES
+
+    def __init__(
+                    self, 
+                    name, 
+                    tooltip, 
+                    label   = None, 
+                    size    = None
+                ):
+        
+        self.label      =   label   or  " "
+        self.name       =   name
+        self.size       =   size    or  35
+        self.tooltip    =   tooltip
+        
+    @property
+    
+    def c_dNavi(self):
+        
+        return ft.NavigationDestination(
+
+            label                   =   self.label,
+            
+            icon_content            =   ft.Icon(
+                
+                                        name    =   self.name, 
+                                        size    =   self.size,
+                                        tooltip =   self.tooltip,
+                                        color   =   ft.colors.WHITE
+                                    )
+        )
+        
+class Cont:
+    
+    def __init__(
+                    self, 
+                    *contents, 
+                    width, 
+                    height, 
+                    padding     =   None,
+                    theme_mode  =   None,
+                    m_top       =   None,
+                    m_bottom    =   None, 
+                    m_left      =   None, 
+                    m_right     =   None
+                ):
+                
+        self.contents           =   contents
+        self.width              =   width
+        self.height             =   height
+        self.m_top              =   m_top           or  0
+        self.m_bottom           =   m_bottom        or  0
+        self.m_left             =   m_left          or  0
+        self.m_right            =   m_right         or  0  
+        self.theme_mode         =   theme_mode    
+        self.padding            =   padding         or  ft.padding.all(20)
+    
+    @property
+    
+    def c_dCont(self):
+        
+        stack = ft.Stack(
+            
+            [content for content in self.contents],
+            width   =   self.width,
+            height  =   self.height
+        )
+        
+        return ft.Container(
+            
+            
+            stack,
+            width           =   self.width,
+            height          =   self.height,
+            border_radius   =   10,
+            shadow          =   ft.BoxShadow(
+                        
+                                    spread_radius   =   1,
+                                    blur_radius     =   5,
+                                    color           =   "#0C2D57",
+                                    offset          =   ft.Offset(0, 0),
+                                    blur_style      =   ft.ShadowBlurStyle.OUTER
+                            ),
+            padding         =   self.padding,        
+            margin          =   ft.Margin(
+                                    top       =   self.m_top, 
+                                    bottom    =   self.m_bottom, 
+                                    left      =   self.m_left, 
+                                    right     =   self.m_right
+                            )
+        )
+        
+        
+        
