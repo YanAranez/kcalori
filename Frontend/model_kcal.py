@@ -1,65 +1,117 @@
-import json
-import control_kcal as ctl
+import pyodbc
+import control_kcal as c
 
-class Users:
+class UserAuthentManagement:
     
-    def __init__(self, f_name, l_name, username, pw, gender, age, wt, ht, act_label, goal):
+    def __init__(self, uid = None, password = None, server = None, database = None, *deets):
         
-        self.f_name     =   f_name
-        self.l_name     =   l_name
-        self.username   =   username
-        self.pw         =   pw
-        self.gender     =   gender
-        self.age        =   age
-        self.wt         =   wt
-        self.ht         =   ht
-        self.act_label  =   act_label
-        self.goal       =   goal
-
-
-class create_User(Users):
-    
-    def __init__(self, f_name, l_name, username, pw, gender, age, wt, ht, act_label, goal):
+        self.server     =   server      or  r'' ##input server
+        self.database   =   database    or  'CaloriePal' 
+        self.uid        =   uid         or  'sa'
+        self.password   =   password    or  '' ##input pw
         
-        super().__init__(f_name, l_name, username, pw, gender, age, wt, ht, act_label, goal)
         
-        user_data = read_User.read()
-        
-        user_data[self.username] = {
+        self.default_conn_string = (
             
-            "first_name"        :   self.f_name,
-            "last_name"         :   self.l_name,
-            "username"          :   self.username,
-            "password"          :   self.pw,
-            "gender"            :   self.gender,
-            "age"               :   self.age,
-            "weight"            :   self.wt,
-            "height"            :   self.ht,
-            "activity_level"    :   self.act_label,
-            "goal"              :   self.goal 
-        }
+            f'DRIVER={{ODBC Driver 17 for SQL Server}};'
+            f'SERVER={self.server};'
+            f'DATABASE={self.database};'
+            f'UID={self.uid};'
+            f'PWD={self.password}'
+        )
 
-        with open("temp_dp.json", "w") as json_file:
-            json.dump(user_data, json_file, indent=4)
+    def create_user(self, f_name, l_name, username, password, age, gender, height, weight, activity_level, goal_Wmodified):
+        
+        cursor = None 
+
+        try:
+            conn = pyodbc.connect(self.default_conn_string)
+            cursor = conn.cursor()
+
+            sql = """
+            EXEC [dbo].[sp_CreateCaloriUser] 
+                @fn = ?, 
+                @ln = ?, 
+                @un = ?, 
+                @pw = ?, 
+                @age = ?, 
+                @gen = ?, 
+                @hei = ?, 
+                @wei = ?, 
+                @act = ?, 
+                @goal_Wmodified = ?
+            """
+
+            params = (
+                f_name,
+                l_name,
+                username,
+                password,
+                age,
+                gender,
+                height,
+                weight,
+                activity_level,
+                goal_Wmodified
+            )
+
+            cursor.execute(sql, params)
+            conn.commit()
             
-class read_User(Users):
-    
-    @staticmethod
-    
-    def read():
+            cursor.close()
+            conn.close()
+            
+            self.login_user(username, password)
+
+        except pyodbc.Error as ex:
+            
+            if cursor:
+                cursor.rollback()
+            
+            if cursor is not None:  
+                cursor.close()
+                
+            if conn is not None: 
+                conn.close()
+                
+            message = ex.args[0]
+            return message
+            
+
+    def login_user(self, username, password):
         
         try:
             
-            with open("temp_dp.json", "r") as json_file:
+            conn_string = (
+            
+                f'DRIVER={{ODBC Driver 17 for SQL Server}};'
+                f'SERVER={self.server};'
+                f'DATABASE={self.database};'
+                f'UID={username};'
+                f'PWD={password}'
+            )
+            
+            conn = pyodbc.connect(conn_string)
+            cursor = conn.cursor()
+            UserLoggedIn(conn, cursor, username)
+
+        except pyodbc.Error as ex:
+            
+            conn = pyodbc.connect(self.default_conn_string)
                 
-                try:
-                    users_data = json.load(json_file)
-                    return users_data
-                
-                except json.JSONDecodeError:
-                    return {}
-                
-        except FileNotFoundError:
-            return {}
+            message = ex.args[0]
+            return message
+
+class UserLoggedIn:
     
+    def __init__(self, conn = None, cursor = None, username = None):
+        
+        self.conn       =   conn
+        self.cursor     =   cursor
+        self.username   =   username
+        
+    def return_Username(self) -> str:
+        
+        username = self.username
+        return username
     

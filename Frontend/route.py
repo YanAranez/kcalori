@@ -14,6 +14,8 @@ class Router:
         self.register_page_1        =   v.Register_Page_1(page)
         self.register_page_2        =   v.Register_Page_2(page)
         self.login_page             =   v.Login_Page(page)
+        self.user_authent_manage    =   m.UserAuthentManagement()
+        
         
         self.home(Page)
 
@@ -44,10 +46,8 @@ class Router:
         self.signup_content, _   =   self.register_page_2.build()
         self.page.add(self.signup_content)
         
-        self.validator      =   ctl.ValidateUserExists(self.register_page_1.username_text_field.value)
-        
         self.register_page_2.return_button.on_click     =   self.on_to_register_page_1
-        self.register_page_2.next_button.on_click       =   self.register_conditions
+        self.register_page_2.next_button.on_click       =   self.try_register
     
     
     def on_to_login_page(self, _):
@@ -57,49 +57,55 @@ class Router:
         self.page.add(self.login_content)
 
         self.login_page.return_button.on_click  =   self.home
-        self.login_page.login_button.on_click   =   self.login_conditions
+        self.login_page.login_button.on_click   =   self.try_login
         
     
-    def register_conditions(self, _):
+    def try_register(self, _):
         
-        if self.validator.exists == True: 
-            self.register_page_2.error_dialog_1()
+        selected_index  =   self.register_page_2.gender_slider.selected_index
+        selected_index  =   ctl.convertGender(selected_index)
         
-        elif self.validator.exists == False: 
-            self.register()
-            
+        act_level       =   self.register_page_2.activity_level.value
+        act_level       =   ctl.convertActivityLabel(act_level)
         
-    def login_conditions(self, _):
+        goal            =   self.register_page_2.goal.value
+        goal            =   ctl.convertGoals(goal)
         
-        user_exists_validator        =   ctl.ValidateUserExists(self.login_page.username_text_field.value)
-        password_correct_validator   =   ctl.ValidateLoginPassword(self.login_page.username_text_field.value, 
-                                                                self.login_page.password_text_field.value)
         
-        if not user_exists_validator.exists:
-            self.login_page.error_dialog_2()
-        elif user_exists_validator.exists and not password_correct_validator.correct:
-            self.login_page.error_dialog_3()
-        elif user_exists_validator.exists and password_correct_validator.correct:
-            self.login_page.success_dialog()
-            
-    
-    
-    def register(self):
-        
-        m.create_User(self.register_page_1.first_name.value,
-                        self.register_page_1.last_name.value,
-                        self.register_page_1.username_text_field.value,
-                        self.register_page_1.password_text_field.value,
-                        self.register_page_2.gender_slider.selected_index,
-                        self.register_page_2.age_txtf.value,
-                        self.register_page_2.height_txtf.value,
-                        self.register_page_2.weight_txtf.value,
-                        self.register_page_2.activity_level.value,
-                        self.register_page_2.goal.value
+        error_message   =   self.user_authent_manage.create_user(
+                                        self.register_page_1.first_name.value,
+                                        self.register_page_1.last_name.value,
+                                        self.register_page_1.username_text_field.value,
+                                        self.register_page_1.password_text_field.value,
+                                        self.register_page_2.age_txtf.value,
+                                        selected_index,
+                                        self.register_page_2.height_txtf.value,
+                                        self.register_page_2.weight_txtf.value,
+                                        act_level,
+                                        goal
                         )
         
-        self.register_page_2.success_dialog()
+        if ctl.ErrorInRegister(error_message) == -1:
+            self.register_page_2.error_dialog_1()
+            
+        elif ctl.ErrorInRegister(error_message) == 0:
+            self.register_page_2.success_dialog()
+            
         
+    def try_login(self, _):
+        
+        login           =   m.UserAuthentManagement()
+        
+        error_message   =   login.login_user(
+                                    self.login_page.username_text_field.value, 
+                                    self.login_page.password_text_field.value
+                        )
+        
+        if ctl.ErrorInLogin(error_message) == -1:
+            self.login_page.error_dialog_2()
+            
+        elif ctl.ErrorInLogin(error_message) == 0:
+            self.login_page.success_dialog()
         
 class Router_Main:
     
@@ -116,8 +122,8 @@ class Router_Main:
     def home(self, _):
         
         self.page.clean()
-        self.main_page_contents, self.add_meal, self.navibar, _  =  self.main_page.build_home()
-        self.page.add(self.main_page_contents, self.add_meal, self.navibar)
+        self.main_page_contents, self.navibar, _  =  self.main_page.build_home()
+        self.page.add(self.main_page_contents, self.navibar)
         
         
     

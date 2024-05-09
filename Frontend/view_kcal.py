@@ -2,8 +2,8 @@ import flet as ft
 import control_kcal as ctl
 import default as defa
 import route as r
+import model_kcal as m
 import datetime
-
 
 class Registerlogin_Page:
     
@@ -158,19 +158,13 @@ class Login_Page:
                                         self.password_text_field
                                     )
         
-        self.username_not_exists    =   defa.AlertDia(
+        self.error_login            =   defa.AlertDia(
                                         
-                                        title       =   "Invalid Username!",
-                                        content     =   "Register first if you do not have an account yet"
+                                        title       =   "Invalid Login!",
+                                        content     =   "Either you do not have an account yet or wrong password!"
                                         
                                     ).c_dalertdia
         
-        self.incorrect_pw           =   defa.AlertDia(
-                                        
-                                        title       =   "Incorrect Password??",
-                                        content     =   "The account exists but your password is incorrect... hmm.."
-                                                        
-                                    ).c_dalertdia
         
         self.success_login          =   defa.AlertDia(
                                         
@@ -193,17 +187,10 @@ class Login_Page:
     
     def error_dialog_2(self):
 
-        self.parent.dialog              =   self.username_not_exists
-        self.username_not_exists.open   =   True
+        self.parent.dialog              =   self.error_login
+        self.error_login.open           =   True
         self.update()
     
-    
-    def error_dialog_3(self):
-
-        self.parent.dialog              =   self.incorrect_pw
-        self.incorrect_pw.open   =   True
-        self.update()
-        
     def success_dialog(self):
 
         self.parent.dialog        =   self.success_login
@@ -265,14 +252,16 @@ class Register_Page_1:
         
         self.first_name          =  defa.TxtF(
             
-                                    label   =   "First Name"
+                                    label   =   "First Name",
+                                    input_f =   ft.TextOnlyInputFilter()
                                     
                                 ).c_dtxtf
         
         
         self.last_name           =  defa.TxtF(
             
-                                    label   =   "Last Name"
+                                    label   =   "Last Name",
+                                    input_f =   ft.TextOnlyInputFilter()
                                     
                                 ).c_dtxtf
         
@@ -427,7 +416,8 @@ class Register_Page_2:
         self.age_txtf           =   defa.TxtF(
             
                                     label   =   "Age",
-                                    h_text  =   "18 - 60"
+                                    h_text  =   "18 - 60",
+                                    input_f =   ft.NumbersOnlyInputFilter()
                                     
                                 ).c_dtxtf
         
@@ -435,7 +425,8 @@ class Register_Page_2:
         self.height_txtf        =   defa.TxtF(
                                 
                                     label   =   "Height",
-                                    h_text  =   "in cm"
+                                    h_text  =   "in cm",
+                                    input_f =   ft.NumbersOnlyInputFilter()
                                     
                                 ).c_dtxtf
         
@@ -443,7 +434,8 @@ class Register_Page_2:
         self.weight_txtf        =   defa.TxtF(
                                 
                                     label       =   "Weight",
-                                    h_text      =   "in kg"
+                                    h_text      =   "in kg",
+                                    input_f =   ft.NumbersOnlyInputFilter()
 
                                 ).c_dtxtf
 
@@ -597,8 +589,9 @@ class Main_Page:
                                             
                                     )
 
+        self.UserLoggedIn           =   m.UserLoggedIn()
         
-        ##      MAIN PAGE NAV BAR ##
+        ## MAIN PAGE NAV BAR ##
         
         self.navi                   =   ft.NavigationBar(
             
@@ -638,8 +631,8 @@ class Main_Page:
                                             
                                             defa.NavigDestination(
                                                 
-                                                name    =   ft.icons.LOGOUT_SHARP,
-                                                tooltip =   "Log Out"
+                                                name    =   ft.icons.ADD_CHART_SHARP,
+                                                tooltip =   "Add Meal"
                                                 
                                                 
                                             ).c_dNavi,
@@ -703,14 +696,16 @@ class Main_Page:
         
         self.first_name             =  defa.TxtF(
             
-                                        label   =   "First Name"
+                                        label   =   "First Name",
+                                        input_f =   ft.TextOnlyInputFilter()
                                         
                                     ).c_dtxtf
         
         
         self.last_name              =  defa.TxtF(
             
-                                        label   =   "Last Name"
+                                        label   =   "Last Name",
+                                        input_f =   ft.TextOnlyInputFilter()
                                         
                                     ).c_dtxtf
         
@@ -864,7 +859,8 @@ class Main_Page:
         self.age_txtf           =   defa.TxtF(
             
                                     label   =   "Age",
-                                    h_text  =   "18 - 60"
+                                    h_text  =   "18 - 60",
+                                    input_f =   ft.NumbersOnlyInputFilter()
                                     
                                 ).c_dtxtf
         
@@ -872,7 +868,8 @@ class Main_Page:
         self.height_txtf        =   defa.TxtF(
                                 
                                     label   =   "Height",
-                                    h_text  =   "in cm"
+                                    h_text  =   "in cm",
+                                    input_f =   ft.NumbersOnlyInputFilter()
                                     
                                 ).c_dtxtf
         
@@ -880,7 +877,8 @@ class Main_Page:
         self.weight_txtf        =   defa.TxtF(
                                 
                                     label       =   "Weight",
-                                    h_text      =   "in kg"
+                                    h_text      =   "in kg",
+                                    input_f =   ft.NumbersOnlyInputFilter()
 
                                 ).c_dtxtf
 
@@ -969,25 +967,9 @@ class Main_Page:
         
         ##      HOME    ##
         
-        self.add_button             =   ft.FloatingActionButton(
-                                        
-                                        content     =   ft.Row(
-                                            [
-                                                ft.Icon(ft.icons.ADD, color = "White", size = 20), 
-                                                ft.Text("Meal", color = "White", size = 20)
-                                            ],
-                                            
-                                            alignment   =   "center", 
-                                            spacing     =   5
-                                        ),
-                                        
-                                        icon        =   ft.icons.ADD,
-                                        bgcolor     =   "#DD5746",
-                                        shape       =   ft.RoundedRectangleBorder(radius = 5),
-                                        width       =   115,
-                                        height      =   45,
-                                        mini        =   True
-                                    )
+        user            =   m.UserLoggedIn()
+        
+        self.username   =   user.return_Username()
         
         self.username_txt           =   ft.Row(
                                         
@@ -1001,14 +983,19 @@ class Main_Page:
                                                             ),
                                                         
                                                         ft.Text(
-                                                            value   =   "kcalori ~ Username",
+                                                            value   =   f"kcalori ~ {self.username}",
                                                             color   =   "#0C2D57",
                                                             style   =   ft.TextStyle(
                                                                     
                                                                         size    =   25,
                                                                         weight  =   ft.FontWeight.BOLD
                                                                     )     
-                                                            )
+                                                            ),
+                                                        
+                                                        defa.Btn(
+                                                            text    =   "Log Out"
+                                                        ).c_debtn
+                                                        
                                                         ],
                                         
                                         alignment   =   ft.MainAxisAlignment.CENTER,
@@ -1390,6 +1377,7 @@ class Main_Page:
                                         
                                     )
         
+        
         def change_date(e):
             
             self.date = self.date_picker.value
@@ -1539,7 +1527,7 @@ class Main_Page:
                                                 
                                                             ft.Text(
                                                                 
-                                                                " meals today",
+                                                                " meals on date",
                                                                 color   =   "#0C2D57",
                                                                 size    =   20,
                                                                 style   =   ft.TextStyle(weight = ft.FontWeight.BOLD)
@@ -1573,7 +1561,7 @@ class Main_Page:
                                                 
                                                             ft.Text(
                                                                 
-                                                                " progress today",
+                                                                " progress on date",
                                                                 color   =   "#0C2D57",
                                                                 size    =   20,
                                                                 style   =   ft.TextStyle(weight = ft.FontWeight.BOLD)
@@ -1663,24 +1651,364 @@ class Main_Page:
                                         alignment   =   ft.MainAxisAlignment.CENTER
                                     )
         
+        ## MAIN PAGE NAV BAR ##
+        
+        self.commit_button          =   defa.Btn(
+                                        
+                                        text    =   "Commit"
+                                        
+                                    ).c_debtn
+        
+        self.add_meal_txt           =   ft.Row(
+                                        
+                                        controls    =   [
+                                            
+                                                        ft.Icon(
+                                                            
+                                                            ft.icons.FASTFOOD_SHARP, 
+                                                            color   =   "#0C2D57",
+                                                            size    =   25
+                                                            ),
+                                                        
+                                                        ft.Text(
+                                                            value   =   "kcalori ~ add ur meal",
+                                                            color   =   "#0C2D57",
+                                                            style   =   ft.TextStyle(
+                                                                    
+                                                                        size    =   25,
+                                                                        weight  =   ft.FontWeight.BOLD
+                                                                    )     
+                                                            ),
+                                                        
+                                                        self.commit_button
+                                                        
+                                                        ],
+                                        
+                                        alignment   =   ft.MainAxisAlignment.CENTER,
+                                        
+                                    )
+        def add_to_food_staged(e):
+            
+            pass
+            
+        self.food_search_bar        =   ft.SearchBar(
+            
+                                        bar_bgcolor         =   "White",
+                                        bar_hint_text       =   "          search food here or manually input below",
+                                        view_hint_text      =   "type food to search and click to add",
+                                        
+                                        bar_overlay_color   =   {
+                                            
+                                                                ft.MaterialState.HOVERED:   "#0C2D57",
+                                                                ft.MaterialState.FOCUSED:   "#0C2D57",
+                                                                ft.MaterialState.SELECTED:  "#0C2D57"
+                                                            },
+                                        
+                                        view_elevation      =   4,
+                                        
+                                        view_header_text_style  =   ft.TextStyle(
+                                            
+                                                                    color   =   "#0C2D57"   
+                                                                ),
+                                        
+                                        divider_color       =   "White",
+                                        view_bgcolor        =   "White",
+                                        on_submit           =   lambda _: self.food_search_bar.open_view(),
+                                        width               =   500,
+                                        
+                                        controls            =   [
+                                            
+                                                                ft.ListTile(
+                                                                    
+                                                                    title       =   ft.Text(
+                                                                        
+                                                                                    f"Meal {i}", 
+                                                                                    color = "#0C2D57"
+                                                                                    ), 
+                                                                    
+                                                                    on_click    =   add_to_food_staged, 
+                                                                    data        =   i,
+                                                                    hover_color =   "#99DBF5"
+                                                                )
+                                                                
+                                                                for i in range(10)
+                                                            ]
+                                    )   
+        
+        self.fsb_row                =   ft.Row(
+            
+                                        controls    =   [
+                                            
+                                            self.food_search_bar
+                                        ],
+                                        
+                                        alignment   =   ft.MainAxisAlignment.CENTER
+                                    )
+        
+        self.staged_food_column     =   ft.Column()
+        
+        self.mi_food_name           =   defa.TxtF(
+                                        
+                                        label   =   "name of food",
+                                        width   =   180,
+                                        height  =   45,
+                                        size    =   13,
+                                        ls      =   ft.TextStyle(
+                                            
+                                                    size    =   15,
+                                                    color   =   '#0C2D57'
+                                                )
+                                        
+                                    ).c_dtxtf
+        
+        
+        self.mi_cal_amount             =   defa.TxtF(
+                                                            
+                                        label   =   "cal",
+                                        
+                                        ls      =   ft.TextStyle(
+                                                    size    =   15,
+                                                    color   =   "#0C2D57"
+                                                ),
+                                        
+                                        size    =   13,
+                                        ch      =   20,
+                                        
+                                        width   =   84,
+                                        height  =   45,
+                                        input_f =   ft.NumbersOnlyInputFilter()
+                                        
+                                    ).c_dtxtf
+        
+        self.mi_g_amount               =   defa.TxtF(
+                                                            
+                                        label   =   "x100g",
+                                        
+                                        ls      =   ft.TextStyle(
+                                                    size    =   15,
+                                                    color   =   "#0C2D57"
+                                                ),
+                                        
+                                        size    =   13,
+                                        ch      =   20,
+                                        
+                                        width   =   71,
+                                        height  =   45,
+                                        input_f =   ft.NumbersOnlyInputFilter()
+                                        
+                                    ).c_dtxtf
+        
+        self.mi_right_row           =   ft.Row(
+                                        
+                                        controls    =   [
+
+                                                        self.mi_cal_amount,
+                                                        self.mi_g_amount,
+                                                        
+                                                        ft.IconButton(
+                                                            
+                                                            icon        =   ft.icons.ADD_BOX_SHARP,
+                                                            icon_color  =   '#DD5746',
+                                                            icon_size   =   40,
+                                                            padding     =   ft.padding.all(0),
+                                                            on_click    =   lambda e: mi_add_food(self.parent, 
+                                                                                                  self.mi_food_name,
+                                                                                                  self.mi_cal_amount,
+                                                                                                  self.mi_g_amount,
+                                                                                                  self.staged_food_column)
+                                                        )
+                                                        
+                                                    ],
+                                        
+                                        spacing     =   3
+                                    )
+        
+        self.manual_f_input_elem    =   ft.Row(
+                                        
+                                        controls    =   [
+                                            
+                                                        self.mi_food_name,
+                                                        self.mi_right_row
+                                                                        
+                                                    ],
+                                        
+                                        alignment   =   ft.MainAxisAlignment.SPACE_BETWEEN
+                                    )
+        
+        self.food_txt_reset_row     =   ft.Row(
+                                        
+                                        controls    =   [
+                                                        
+                                                        ft.IconButton(
+                                                                        icon        =   ft.icons.DELETE_SHARP,
+                                                                        icon_color  =   '#DD5746',
+                                                                        icon_size   =   40,
+                                                                        padding     =   ft.padding.all(0),
+                                                                        on_click    =   lambda e: delete_food_entry(self.parent, 
+                                                                                                                    self.staged_food_column)
+                                                                    ),
+                                                        
+                                                        ft.Text(
+                                                                
+                                                                " foods staged",
+                                                                color   =   "#0C2D57",
+                                                                size    =   20,
+                                                                style   =   ft.TextStyle(weight = ft.FontWeight.BOLD)
+                                                            )
+                                                    ]
+                                    )
+        
+        self.foods_staged           =   defa.Cont(
+                                        
+                                        ft.Column(
+                                            
+                                            controls    =   [
+                                                            
+                                                            self.food_txt_reset_row,
+                                                            self.manual_f_input_elem,
+                                                            self.staged_food_column
+                                    
+                                                        ],
+                                            
+                                            
+                                            spacing     =   15,
+                                            scroll      =   ft.ScrollMode.AUTO
+                                        ),
+                                                                                
+                                        width       =   450,
+                                        height      =   460,
+                                        m_top       =   15
+                                        
+                                    ).c_dCont
+        
+        def delete_food_entry(page, row):
+        
+            row.controls.clear()
+            page.update()
+        
+        def mi_add_food(page, food_name, cal, x100g, row):
+            
+            food_name_v       =   food_name.value
+            cal_v             =   cal.value
+            x100g_v           =   x100g.value
+            
+            cal_v             =   int(cal_v)
+            x100g_v           =   int(x100g_v)
+            
+            total_cal       =   cal_v * x100g_v
+            
+            new_entry       =   ft.Row(
+
+                                controls    =   [
+                                                
+                                                ft.Text(
+                                                    
+                                                    value   =   food_name_v,
+                                                    color   =   "#0C2D57",
+                                                    size    =   20,
+                                                    
+                                                    style   =   ft.TextStyle(
+                                                                
+                                                                weight  =   ft.FontWeight.BOLD
+                                                            )
+                                                ),
+                                                
+                                                
+                                                ft.Text(
+                                                    
+                                                    value   =   str(total_cal),
+                                                    color   =   "#0C2D57",
+                                                    size    =   20
+                                                )
+                                            ],
+                                
+                                alignment   =   ft.MainAxisAlignment.SPACE_EVENLY
+                            )
+            
+            row.controls.append(new_entry)
+            food_name.value = ""
+            cal.value       = ""
+            x100g.value     = ""
+            page.update()
+            
+        
+        self.total_fud          =   ft.Column(
+                                        
+                                        controls    =   [
+                                                        
+                                                        ft.Text(
+                                                            value   =   "total:",
+                                                            color   =   "#0C2D57",
+                                                            style   =   ft.TextStyle(
+                                                                    
+                                                                        size    =   25,
+                                                                        weight  =   ft.FontWeight.BOLD
+                                                                    )     
+                                                            ),
+                                                        
+                                                        defa.Cont(
+                                                            
+                                                            ft.Column(
+                                                                
+                                                                controls    =   [
+                                                                                
+                                                                            ]
+                                                                
+                                                            ),
+                                                            
+                                                            width       =   272,
+                                                            height      =   360
+                                                            
+                                                        ).c_dCont      
+                                                    ],
+                                        
+                                        alignment   =   "Center",
+                                        spacing     =   15
+                                    )
+        
+        self.all_info_row           =   ft.Row(
+                                        
+                                        controls    =   [
+                                            
+                                            self.foods_staged,
+                                            self.total_fud
+                                            
+                                        ],
+                                        
+                                        alignment   =   ft.MainAxisAlignment.CENTER,
+                                        spacing     =   30
+                                    )
+        
+        self.all_elements_col_am    =   ft.Column(
+                                        
+                                        controls    =   [
+                                                        
+                                                        self.add_meal_txt,
+                                                        self.fsb_row,
+                                                        self.all_info_row
+                                                    ],
+                                        
+                                        spacing     =   10,
+                                        alignment   =   ft.MainAxisAlignment.CENTER
+                                    )
+        
+        
     def build_home(self):
         
         self.page_properties.apply(self.parent)
 
-        return self.all_elements_col_home, self.add_button, self.navi, self.page_properties
+        return self.all_elements_col_home, self.navi, self.page_properties
     
     
     def close_cusprof(self, e):
         
         self.customize_profile.open  =  False
-        self.navi.selected_index     =  2
         self.parent.update()
         
         
     def close_retgoal(self, e):
         
         self.rethink_goals.open     =  False
-        self.navi.selected_index    =  2
         self.parent.update()
     
     
@@ -1706,18 +2034,19 @@ class Main_Page:
             
         elif selected_index == 2:
             
-            self.all_elements_col_home.visible = True
-            self.add_button.visible = True
+            self.all_elements_col_home.visible  = True
             
-            self.all_elements_col_ml.visible = False
+            self.all_elements_col_ml.visible    = False
+            self.all_elements_col_am.visible    = False
+            
             self.parent.update()
             
         elif selected_index == 3:
             
-            self.all_elements_col_home.visible = False
-            self.add_button.visible = False
+            self.all_elements_col_ml.visible    = True
             
-            self.all_elements_col_ml.visible = True
+            self.all_elements_col_home.visible  = False
+            self.all_elements_col_am.visible    = False
             
             self.parent.add(self.all_elements_col_ml)
             self.parent.update()
@@ -1725,7 +2054,15 @@ class Main_Page:
             
         elif selected_index == 4:
             
-            pass
+            self.all_elements_col_am.visible    = True
+            
+            self.all_elements_col_ml.visible    = False
+            self.all_elements_col_home.visible  = False
+            
+            
+            self.parent.add(self.all_elements_col_am)
+            self.parent.update()
+            
             
 
 
