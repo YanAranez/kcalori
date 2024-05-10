@@ -5,10 +5,10 @@ class UserAuthentManagement:
     
     def __init__(self, uid = None, password = None, server = None, database = None, *deets):
         
-        self.server     =   server      or  r'' ##input server
+        self.server     =   server      or  'DESKTOP-Q9OPNAM\CALORI' ##input server
         self.database   =   database    or  'CaloriePal' 
         self.uid        =   uid         or  'sa'
-        self.password   =   password    or  '' ##input pw
+        self.password   =   password    or  '2020133928' ##input pw
         
         
         self.default_conn_string = (
@@ -104,14 +104,15 @@ class UserAuthentManagement:
 
 class UserLoggedIn:
     
-    def __init__(self, conn = None, cursor = None, username = None):
+    def __init__(self, conn=None, cursor=None, username=None):
         
-        self.conn       =   conn
-        self.cursor     =   cursor
-        self.username   =   username
-        
+        self.conn       = conn
+        self.cursor     = cursor
+        self.username   = username
+
     def return_Username(self) -> str:
         
         username = self.username
         return username
     
+
