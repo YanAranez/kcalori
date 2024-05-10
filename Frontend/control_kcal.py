@@ -2,6 +2,8 @@ import re
 import route as r
 import pyodbc
 
+
+
 class ValidateButtonState:
 
 ##  VALIDATES BUTTON STATES IN REGISTER AND/OR LOGIN PAGE
@@ -148,11 +150,11 @@ def convertActivityLabel(val):
 def convertGoals(val):
     
     if val == 'Maintain':
-        return '1'
+        return 'Maintain'
     elif val == 'Mild Weight Loss':
-        return '2'
+        return 'Mild Weight Loss'
     elif val == 'Weight Loss':
-        return '3'
+        return 'Weight Loss'
     
 def ErrorInRegister(message) -> int:
     
@@ -171,11 +173,4 @@ def ErrorInLogin(message) -> int:
         error_code = -1
         
     return error_code
-    
-    
-        
-        
-         
-
-    
     

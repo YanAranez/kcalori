@@ -1656,6 +1656,7 @@ class Main_Page:
         self.commit_button          =   defa.Btn(
                                         
                                         text    =   "Commit"
+                                     
                                         
                                     ).c_debtn
         
@@ -1811,11 +1812,11 @@ class Main_Page:
                                                             icon_color  =   '#DD5746',
                                                             icon_size   =   40,
                                                             padding     =   ft.padding.all(0),
-                                                            on_click    =   lambda e: mi_add_food(self.parent, 
-                                                                                                  self.mi_food_name,
-                                                                                                  self.mi_cal_amount,
-                                                                                                  self.mi_g_amount,
-                                                                                                  self.staged_food_column)
+                                                           on_click=lambda e: self.store_values( 
+                                                                                                  self.mi_food_name.getText(),
+                                                                                                  self.mi_cal_amount.getText(),
+                                                                                                  self.mi_g_amount.getText()
+                                                                                                  )
                                                         )
                                                         
                                                     ],
@@ -1991,8 +1992,6 @@ class Main_Page:
                                         spacing     =   10,
                                         alignment   =   ft.MainAxisAlignment.CENTER
                                     )
-        
-        
     def build_home(self):
         
         self.page_properties.apply(self.parent)
@@ -2066,8 +2065,6 @@ class Main_Page:
             
 
 
-
-        
 
         
 
