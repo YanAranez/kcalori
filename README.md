@@ -1,5 +1,8 @@
 
 Backend:
+ - Download (in main/kcalori DB/Scripts/:
+ - FinalScript.sql
+ - Run Query in SSMS SQL 
 
 Frontend:
   - Download (in main/Frontend): 
